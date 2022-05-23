@@ -1,0 +1,36 @@
+.header__container-center {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.body__header-main {
+    background-color: rgba(12, 11, 0, 0.631);
+}
+
+.header__nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__nav li + li{
+    margin-left: 60px;
+}
+
+
+.header__container-center .header__brand {
+    position: relative;
+
+}
+
+.header__container-center .header__brand .wrap__brand {
+    position: absolute;
+    top: -65px;
+    left: 30%;
+    z-index: 9999999;
+}
+/* 
+.header__contact, .header__social {
+    display: none;
+} */
