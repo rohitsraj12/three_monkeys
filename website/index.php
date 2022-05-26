@@ -10,7 +10,11 @@
     include("private/required/header.inc.php");
 
 ?>
-        <div class="body__banner home__banner">
+        <div class="body__banner home__banner"  data-aos="fade-in"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in">
             <div class="banner__image">
 
                 <div class="banner__image-desktop">
@@ -54,13 +58,13 @@
         <div class="body__container">
             <main>
 
-                <section class="section__craft-beer py-5"  data-aos="fade-in"
-                    data-aos-offset="100"
-                    data-aos-delay="50"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in">
+                <section class="section__craft-beer py-5">
                     <div class="wrap__container py-5">
-                        <header class="section__header text-center pb-5">
+                        <header class="section__header text-center pb-5" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                             <p class="primary__header-sub sub__style-center">
                                 three Monkey's
                             </p>
@@ -72,7 +76,11 @@
                         <div class="section__body text-center pb-5">
                             <div class="row justify-content-center">
                                 <div class="col-md-3">
-                                    <section>
+                                    <section data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <article class="craft__beet-article">
                                             <figure>
                                                 <img src="<?php echo base_url();?>assets/img/craft-beer/01.png" alt="">
@@ -87,7 +95,11 @@
                                     </section>
                                 </div>
                                 <div class="col-md-3">
-                                    <section>
+                                    <section data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <article class="craft__beet-article">
                                             <figure>
                                                 <img src="<?php echo base_url();?>assets/img/craft-beer/02.png" alt="">
@@ -102,7 +114,11 @@
                                     </section>
                                 </div>
                                 <div class="col-md-3">
-                                    <section>
+                                    <section data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <article class="craft__beet-article">
                                             <figure>
                                                 <img src="<?php echo base_url();?>assets/img/craft-beer/03.png" alt="">
@@ -119,7 +135,11 @@
                             </div>
                         </div>
                         <footer class="section__footer text-center">
-                            <a href="<?php echo base_url();?>craft_beers/" class="btn__primary">
+                            <a href="<?php echo base_url();?>craft_beers/" class="btn__primary" data-aos="slide-up"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 Read More
                             </a>
                         </footer>
@@ -177,8 +197,11 @@
                             <div class="row align-items-center">
                                 <div class="col-md-4 px-0">
                                     <section>
-                                        <article>
-                                            
+                                        <article  data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                             <figure class="m-0">
                                                 <img class="w-100" src="<?php echo base_url();?>assets/img/menu/menu-1.jpg" alt="">
                                             </figure>
@@ -190,10 +213,18 @@
                                         <article>
                                             
                                             <header class="section__header text-center pb-5">
-                                                <p class="primary__header-sub sub__style-center">
+                                                <p class="primary__header-sub sub__style-center" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                     Our
                                                 </p>
-                                                <p class="primary__header">
+                                                <p class="primary__header" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                     Menu
                                                 </p>
                                             </header>
@@ -202,7 +233,15 @@
                                                 <div class="row gx-5">
                                                     <div class="col-md-6">
 
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in"  data-aos="zoom-out"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -231,7 +270,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -260,7 +303,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -289,7 +336,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -318,7 +369,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -347,7 +402,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -376,7 +435,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -405,7 +468,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -435,7 +502,11 @@
                                                     </div>
 
                                                     <!-- <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -464,7 +535,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -495,8 +570,12 @@
                                                 </div>
                                             </div>
 
-                                            <footer class="section__footer text-center">
-                                                <a href="<?php echo base_url();?>menu/" class="btn__primary">
+                                            <footer class="section__footer text-center" > 
+                                                <a href="<?php echo base_url();?>menu/" class="btn__primary"data-aos="zoom-out"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
                                                     View More
                                                 </a>
                                             </footer>
@@ -514,12 +593,20 @@
                             <article>
                                 
                                 <header class="pb-4">
-                                    <h3 class="tagline__header">
+                                    <h3 class="tagline__header"  data-aos="zoom-out"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto tenetur neque dolorum temporibus ratione dignissimos ab libero amet iste.
                                     </h3>
                                 </header>
 
-                                <footer class="section__footer text-center">
+                                <footer class="section__footer text-center"  data-aos="zoom-out"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                     <a href="<?php echo base_url();?>contact_us/reservation.php" class="btn__primary">
                                         Book Reservation
                                     </a>
@@ -531,7 +618,11 @@
 
                 <section class="section__testimonial ">
                     <div class="container">
-                        <header class="section__header text-center pb-5">
+                        <header class="section__header text-center pb-5" data-aos="zoom-out"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                             <p class="primary__header-sub sub__style-center">
                                 Testimonials
                             </p>
@@ -542,12 +633,20 @@
                         <div class="section__body">
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <figure class="testimonial__img">
+                                    <figure class="testimonial__img"  data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <!-- <img src="<?php echo base_url();?>assets/img/testimonials/001.jpg" alt=""> -->
                                     </figure>
                                 </div>
                                 <div class="col-9">
-                                    <div class="blockquote pt-5 px-5 pb-3">
+                                    <div class="blockquote pt-5 px-5 pb-3" data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <blockquote>
                                             <p>
                                                 Below, you'll find a list of errors which are thrown by JavaScript. These errors can be a helpful debugging aid, but the reported problem isn't always immediately clear. 
