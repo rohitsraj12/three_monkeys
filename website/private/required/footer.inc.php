@@ -6,16 +6,28 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <article>
-                                    <figure class="footer__figur">
+                                    <figure class="footer__figur" data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <a href="">
                                             <img width="150px" src="<?php echo base_url();?>assets/img/brand/logo.svg" alt="LOGO">
                                         </a>
                                     </figure>
-                                    <p>
+                                    <p data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id maiores sed nostrum quaerat, recusandae eveniet! Temporibus amet, libero quo saepe facilis aliquam, blanditiis 
                                     </p>
                                     <footer>
-                                        <ul class="footer__social">
+                                        <ul class="footer__social" data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                             <!-- <li class="footer__social-list"><a href="" class="footer__social-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li> -->
                                             <li class="footer__social-list"><a href="" class="footer__social-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                             <li class="footer__social-list"><a href="" class="footer__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -29,11 +41,19 @@
                             </div>
                             <div class="col-sm-6 col-md-3">
                                 <article class="footer__nav">
-                                    <header class="footer__header">
+                                    <header class="footer__header" data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         Quick Links
                                     </header>
 
-                                    <ul>
+                                    <ul data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <li class="footer__nav-list"><a href="<a href="<?php echo base_url();?>" class="footer__nav-link">Home</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>about/" class="footer__nav-link">About</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>craft_beers/" class="footer__nav-link">Crafted Beer</a></li>
@@ -51,11 +71,19 @@
                             <div class="col-sm-6 col-md-3">
                                 <div class="footer__contact">
                                     
-                                    <header class="footer__header">
+                                    <header class="footer__header" data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         Contact Details
                                     </header>
 
-                                    <ul>
+                                    <ul data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <li class="footer__contact-list">
                                             <i class="fa fa-phone" aria-hidden="true"></i>
                                             <a class="footer__contact-link tel" href="">Loading..</a>
