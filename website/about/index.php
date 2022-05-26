@@ -1,5 +1,12 @@
 <?php
 
+
+    $page_title     = "About Page";
+    $nav_active     = "about";
+
+    $meta_key       = "";
+    $meta_desc      = "";
+
     include("../private/config/config.php");
     include("../private/required/header.inc.php");
 
@@ -162,7 +169,7 @@
                     </div>
                 </section>
 
-                <section class="section__why py-5">
+                <section class="section__why py-5 border__t">
                     <div class="wrap__container py-5">
                         <header class="section__header text-center">
                             <p class="primary__header-sub sub__style-center">
