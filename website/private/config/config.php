@@ -4,7 +4,7 @@
         if($_SERVER['SERVER_NAME'] == "localhost"){
             $url = "http://localhost/gopalan_git/three_monkeys/website/";
         } else {
-            $url = "https://crm.gopalancoworks.com/";
+            $url = "https://gopalanorganics.com/three-monkeys/";
         }
         return $url;
     }
