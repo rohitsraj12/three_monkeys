@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/center_nav.css">
@@ -23,7 +24,7 @@
 <body>
     <div class="body__wrap">
 
-        <div class="body__header body__header-absolute"  data-aos="fade-in"
+        <div class="body__header body__header-absolute" data-aos="slide-down"
                     data-aos-offset="100"
                     data-aos-delay="50"
                     data-aos-duration="1000"
@@ -32,7 +33,11 @@
                 <div class="header__container-center">
                     <div class="row">
                         <div class="col-8">
-                            <ul class="header__contact">
+                            <ul class="header__contact" data-aos="fade-in"
+                                    data-aos-offset="100"
+                                    data-aos-delay="500"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in">
                                 <li class="header__contact-list"><i class="fa fa-location-arrow" aria-hidden="true"></i><a class="header__contact-link address" href="">Loading..</a></li>
                                 <li class="header__contact-list"><i class="fa fa-phone" aria-hidden="true"></i><a class="header__contact-link tel" href="">Loading..</a></li>
                                 <!-- <li class="header__contact-list"><a class="header__contact-link mailto" href="">Loading..</a></li> -->
@@ -41,7 +46,11 @@
                         </div>
                         <!-- end header contact -->
                         <div class="col-4">
-                            <ul class="header__social">
+                            <ul class="header__social" data-aos="fade-in"
+                                    data-aos-offset="100"
+                                    data-aos-delay="500"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in">
                                 <!-- <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li> -->
                                 <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                 <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -80,7 +89,11 @@
                    
 
                     <nav class="header__nav">
-                        <ul class="main__nav">
+                        <ul class="main__nav" data-aos="zoom-out"
+                                    data-aos-offset="100"
+                                    data-aos-delay="500"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in">
                             <li class="nav__list"><a href="<?php echo base_url();?>" class="nav__link <?php if($nav_active == "home"){ echo "active__nav" ; }?>">Home</a></li>
                             <li class="nav__list"><a href="<?php echo base_url();?>about/" class="nav__link <?php if($nav_active == "about"){ echo "active__nav" ; }?>">About</a></li>
                             <li class="nav__list"><a href="<?php echo base_url();?>craft_beers/" class="nav__link <?php if($nav_active == "craft"){ echo "active__nav" ; }?>">Craft Beer</a></li>
@@ -88,12 +101,20 @@
                         <div class="header__brand">
                             
                             <div class="wrap__brand">
-                                <a href="">
+                                <a href="" data-aos="zoom-out"
+                                    data-aos-offset="100"
+                                    data-aos-delay="1000"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in">
                                     <img src="<?php echo base_url();?>assets/img/brand/logo.svg" alt="LOGO">
                                 </a>
                             </div>
                         </div>
-                        <ul class="main__nav">
+                        <ul class="main__nav" data-aos="zoom-out"
+                                    data-aos-offset="100"
+                                    data-aos-delay="500"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in">
                             <li class="nav__list"><a href="<?php echo base_url();?>menu/" class="nav__link <?php if($nav_active == "menu"){ echo "active__nav" ; }?>">Menu</a></li>
                             <li class="nav__list"><a href="<?php echo base_url();?>gallery/" class="nav__link <?php if($nav_active == "gallery"){ echo "active__nav" ; }?>">Gallery</a></li>
                             <li class="nav__list"><a href="<?php echo base_url();?>contact_us/reservation.php" class="nav__link <?php if($nav_active == "reservation"){ echo "active__nav" ; }?>">Reservation</a></li>
