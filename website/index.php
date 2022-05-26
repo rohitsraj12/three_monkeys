@@ -1,5 +1,11 @@
 <?php
 
+    $page_title     = "Home Page";
+    $nav_active     = "home";
+
+    $meta_key       = "";
+    $meta_desc      = "";
+
     include("private/config/config.php");
     include("private/required/header.inc.php");
 
@@ -48,7 +54,79 @@
         <div class="body__container">
             <main>
 
-                <section class="section__about">
+                <section class="section__craft-beer py-5"  data-aos="fade-in"
+                    data-aos-offset="100"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in">
+                    <div class="wrap__container py-5">
+                        <header class="section__header text-center pb-5">
+                            <p class="primary__header-sub sub__style-center">
+                                three Monkey's
+                            </p>
+                            <p class="primary__header">
+                                Craft Beer
+                            </p>
+                        </header>
+
+                        <div class="section__body text-center pb-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-3">
+                                    <section>
+                                        <article class="craft__beet-article">
+                                            <figure>
+                                                <img src="<?php echo base_url();?>assets/img/craft-beer/01.png" alt="">
+                                            </figure>
+                                            <header class="">
+                                                <h1 class="craft__beer-header">
+                                                    Lorem, ipsum dolor.
+                                                </h1>
+                                            </header>
+                                            
+                                        </article>
+                                    </section>
+                                </div>
+                                <div class="col-md-3">
+                                    <section>
+                                        <article class="craft__beet-article">
+                                            <figure>
+                                                <img src="<?php echo base_url();?>assets/img/craft-beer/02.png" alt="">
+                                            </figure>
+                                            <header class="">
+                                                <h1 class="craft__beer-header">
+                                                    Lorem, ipsum dolor.
+                                                </h1>
+                                            </header>
+                                            
+                                        </article>
+                                    </section>
+                                </div>
+                                <div class="col-md-3">
+                                    <section>
+                                        <article class="craft__beet-article">
+                                            <figure>
+                                                <img src="<?php echo base_url();?>assets/img/craft-beer/03.png" alt="">
+                                            </figure>
+                                            <header>
+                                                <h1 class="craft__beer-header">
+                                                    Lorem, ipsum dolor.
+                                                </h1>
+                                            </header>
+                                            
+                                        </article>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="section__footer text-center">
+                            <a href="<?php echo base_url();?>craft_beers/" class="btn__primary">
+                                Read More
+                            </a>
+                        </footer>
+                    </div>
+                </section>
+
+                <!-- <section class="section__about">
                     <div class="wrap__container py-5">
                         <div class="row py-5 align-items-center g-4">
 
@@ -90,68 +168,401 @@
 
                         </div>
                     </div>
-                </section>
+                </section> -->
 
-                <section class="section__why py-5">
-                    <div class="wrap__container py-5">
-                        <header class="section__header">
-                            <p class="primary__header-sub sub__style">
-                                why us
-                            </p>
-                            <p class="primary__header">
-                                Why Choose Our Restaurant
-                            </p>
-                        </header>
+                <section class="section__why border__x">
+                    <div class="container-fluid">
 
                         <div class="section__body">
-                            <div class="row">
-                                <div class="col-md-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 px-0">
                                     <section>
                                         <article>
-                                            <header class="article">
-                                                <h2>
-                                                    Lorem, ipsum dolor.
-                                                </h2>
-                                            </header>
-                                            <article class="article__body">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus nulla molestias inventore accusantium doloremque necessitatibus fugit reprehenderit delectus eos?
-                                                </p>
-                                            </article>
+                                            
+                                            <figure class="m-0">
+                                                <img class="w-100" src="<?php echo base_url();?>assets/img/menu/menu-1.jpg" alt="">
+                                            </figure>
                                         </article>
                                     </section>
                                 </div>
-                                <div class="col-md-4">
-                                    <section>
+                                <div class="col-md-8">
+                                    <section class="py-5">
                                         <article>
-                                            <header class="article">
-                                                <h2>
-                                                    Lorem, ipsum dolor.
-                                                </h2>
-                                            </header>
-                                            <article class="article__body">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus nulla molestias inventore accusantium doloremque necessitatibus fugit reprehenderit delectus eos?
+                                            
+                                            <header class="section__header text-center pb-5">
+                                                <p class="primary__header-sub sub__style-center">
+                                                    Our
                                                 </p>
-                                            </article>
+                                                <p class="primary__header">
+                                                    Menu
+                                                </p>
+                                            </header>
+
+                                            <div class="section__body px-4">
+                                                <div class="row gx-5">
+                                                    <div class="col-md-6">
+
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        CAESAR SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            280
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with romaine, olive oil, crushed garlic, Dijon mustard, lemon juice, Parmesan cheese and croutons.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        350/400g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <!-- <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="menu__block">
+                                                            <article>
+                                                                <header class="menu__header d-flex justify-content-between">
+                                                                    <h2 class="dish__name">
+                                                                        GREEK SALAD
+                                                                    </h2>
+                                                                    
+                                                                    <div class="dish__price">
+                                                                        <span></span>
+                                                                        <span>
+                                                                            250.00
+                                                                        </span>
+                                                                    </div>
+                                                                </header>
+                                                                <div class="menu__body d-flex justify-content-between">
+                                                                    <div class="dish__detail">
+                                                                        <p>
+                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="dish__weight">
+                                                                        200/300g
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+
+                                                    </div> -->
+                                                </div>
+                                            </div>
+
+                                            <footer class="section__footer text-center">
+                                                <a href="<?php echo base_url();?>menu/" class="btn__primary">
+                                                    View More
+                                                </a>
+                                            </footer>
                                         </article>
                                     </section>
                                 </div>
-                                <div class="col-md-4">
-                                    <section>
-                                        <article>
-                                            <header class="article">
-                                                <h2>
-                                                    Lorem, ipsum dolor.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section__tagline py-5 text-center backgroud__img-1 border__b">
+                    <div class="container py-3">
+                        <section>
+                            <article>
+                                
+                                <header class="pb-4">
+                                    <h3 class="tagline__header">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto tenetur neque dolorum temporibus ratione dignissimos ab libero amet iste.
+                                    </h3>
+                                </header>
+
+                                <footer class="section__footer text-center">
+                                    <a href="<?php echo base_url();?>contact_us/reservation.php" class="btn__primary">
+                                        Book Reservation
+                                    </a>
+                                </footer>
+                            </article>
+                        </section>
+                    </div>
+                </section>
+
+                <section class="section__testimonial ">
+                    <div class="container">
+                        <header class="section__header text-center pb-5">
+                            <p class="primary__header-sub sub__style-center">
+                                Testimonials
+                            </p>
+                            <p class="primary__header">
+                                Visitors Experience
+                            </p>
+                        </header>
+                        <div class="section__body">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <figure class="testimonial__img">
+                                        <!-- <img src="<?php echo base_url();?>assets/img/testimonials/001.jpg" alt=""> -->
+                                    </figure>
+                                </div>
+                                <div class="col-9">
+                                    <div class="blockquote pt-5 px-5 pb-3">
+                                        <blockquote>
+                                            <p>
+                                                Below, you'll find a list of errors which are thrown by JavaScript. These errors can be a helpful debugging aid, but the reported problem isn't always immediately clear. 
+                                            </p>
+                                            <cite>
+                                                <h2 class="client__name text-end">
+                                                    Ashly Lobo
                                                 </h2>
-                                            </header>
-                                            <article class="article__body">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus nulla molestias inventore accusantium doloremque necessitatibus fugit reprehenderit delectus eos?
-                                                </p>
-                                            </article>
-                                        </article>
-                                    </section>
+                                                <h6 class="client__profile text-end">
+                                                    ABC, Director                                                
+                                                </h6>
+                                            </cite>
+                                        </blockquote>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
