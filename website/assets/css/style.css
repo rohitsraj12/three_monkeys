@@ -7,8 +7,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 /* font-family: 'Archivo', sans-serif; */
+
+
+/* font-family: 'JACKYSHOW', sans-serif; */
+
 
 *::selection {
   color: rgb(255, 255, 255);
@@ -33,6 +39,8 @@
     --font-secondary: 'Merienda', cursive;
     --font-text: 'Archivo', sans-serif;
     --font-text-1: "Charmonman", sans-serif;
+    --font-handwriting: 'Hurricane', cursive;
+    --font-handwriting-1: 'Satisfy', cursive;
   }
   
   html {
@@ -106,6 +114,26 @@
     color:rgb(131, 131, 131);
   }
 
+  .backgroud__dark {
+    background-color: #000;
+  }
+
+.backgroud__img-1 {
+    background-color: rgba(0, 0, 0, 0.842);
+    position: relative;
+}
+
+.backgroud__img-1::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg/reservation.jpg);
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
   /* ===================================
   
       Default styling
@@ -154,14 +182,35 @@
     }
 
     .btn__primary {
-        background-color: var(--color-theme);
-        color: #fff;
-    }
+        display: inline-block;
+        border: none;
+        padding: 12px 30px;
+        background-color: transparent;
+        background-image: url(../img/bg/bg-btn.svg);
+        background-size: cover;
+        color: #282828;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+
+        transition: ease-in-out 300ms;
+        -webkit-transition: ease-in-out 300ms;
+        -moz-transition: ease-in-out 300ms;
+        -ms-transition: ease-in-out 300ms;
+        -o-transition: ease-in-out 300ms;
+}
 
   .btn__primary:hover {
-    color: #fff;
-    opacity: 0.8;
-  }
+        color: #282828;
+        opacity: 0.8;
+        transform: scale(1.06) ;
+        -webkit-transform: scale(1.06) ;
+        -moz-transform: scale(1.06) ;
+        -ms-transform: scale(1.06) ;
+        -o-transform: scale(1.06) ;
+}
 
   .btn__link {
     color: var(--color-theme);
@@ -215,6 +264,15 @@
     line-height: 3rem;
   }
 
+  .tagline__header {
+    font-family: var(--font-secondary);
+    font-size: 1.7rem;
+    font-weight: 400;  
+    color: var(--color-white);
+
+    line-height: 3rem;
+
+  }
 /* ===================================
 
     Typography
@@ -232,6 +290,18 @@
     margin: 0 auto;
 }
 
+.border__x {
+    border-top: 1px solid #2a2a2a;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.border__t {
+    border-top: 1px solid #2a2a2a;
+}
+
+.border__b {
+    border-bottom: 1px solid #2a2a2a;
+}
 /* ===================================
 
     #body header
@@ -265,14 +335,22 @@
 }
 
 .header__contact-list i, .header__social-list i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
     display: inline-block;
     margin-right: 15px;
-    color: rgb(226, 226, 226);
+    font-size: 1.1rem;
+    color: rgb(21, 21, 21);
+    background-image: url(../img/bg/bg-icon-btn.svg);
+    background-size: cover;
 }
 
 .header__contact-list i, .header__social-list i {
     font-size: 0.9rem;
 }
+
 .header__contact-list + li {
     margin-left: 25px;
 } 
@@ -307,7 +385,7 @@
 }
 
 .header__social-link i:hover{
-    color: var(--color-theme);
+    color: #7e7e7e;
 }
 
 /* body header main
@@ -345,6 +423,70 @@
     color: #fff;
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(147, 85, 4, 0.887);
+    transition: ease-in-out 300ms;
+    -webkit-transition: ease-in-out 300ms;
+    -moz-transition: ease-in-out 300ms;
+    -ms-transition: ease-in-out 300ms;
+    -o-transition: ease-in-out 300ms;
+}
+
+.nav__link:hover, .active__nav{
+    color: var(--color-theme);
+}
+
+/* ==================================
+
+    #body footer
+
+======================================*/
+.footer__header {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-bottom: 2px dotted rgba(181, 181, 181, 0.6);
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color-theme);
+}
+.footer__figure {
+    width: 100%;
+    height: 50px;
+}
+
+.body__footer {
+    border-top: 1px solid rgb(41, 41, 41);
+    
+    background-color: #0c0b09dd;
+    position: relative;
+}
+
+.body__footer::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner/about_us-1.jpg);
+    background-size: cover;
+    background-position: bottom center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.footer__nav-list, .footer__contact-list {
+    padding-left: 15px;
+}
+
+.footer__nav-link {
+    margin-bottom: 10px;
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(208, 208, 208);
+    /* text-transform: uppercase; */
+    text-shadow: 0 0 10px rgba(147, 85, 4, 0.887);
 
     transition: ease-in-out 300ms;
     -webkit-transition: ease-in-out 300ms;
@@ -353,10 +495,99 @@
     -o-transition: ease-in-out 300ms;
 }
 
-.nav__link:hover{
+
+.footer__nav-link:hover {
     color: var(--color-theme);
+    padding-left: 10px;
 }
 
+.footer__copy-right {
+    border-top: 1px solid rgb(41, 41, 41);
+
+    background-color: #111010d8;
+}
+
+.footer__contact-list {
+    margin-bottom: 10px;
+}
+
+.footer__contact-list i {
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    /* background-color: var(--color-theme); */
+    background-image: url(../img/bg/bg-icon-btn.svg);
+    background-size: cover;
+    color: rgb(27, 27, 27);
+}
+
+.footer__contact-link {
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(208, 208, 208);
+    text-shadow: 0 0 10px rgba(147, 85, 4, 0.887);
+
+    transition: ease-in-out 300ms;
+    -webkit-transition: ease-in-out 300ms;
+    -moz-transition: ease-in-out 300ms;
+    -ms-transition: ease-in-out 300ms;
+    -o-transition: ease-in-out 300ms;
+}
+
+.footer__contact-link:hover {
+    color: rgb(208, 208, 208);
+}
+
+
+/* .footer__contact-list + li {
+    margin-left: 25px;
+}  */
+
+.footer__social {
+    display: flex;
+    
+}
+
+.footer__social-link i {
+    font-size: 1.2rem;
+    transition: ease-in-out 300ms;
+    -webkit-transition: ease-in-out 300ms;
+    -moz-transition: ease-in-out 300ms;
+    -ms-transition: ease-in-out 300ms;
+    -o-transition: ease-in-out 300ms;
+}
+
+.footer__social-list + li {
+    margin-left: 0px;
+} 
+
+.footer__social-link {
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(226, 226, 226);
+    transition: ease-in-out 300ms;
+    -webkit-transition: ease-in-out 300ms;
+    -moz-transition: ease-in-out 300ms;
+    -ms-transition: ease-in-out 300ms;
+    -o-transition: ease-in-out 300ms;
+}
+.footer__social-list i {
+    width: 30px;
+    height: 30px;
+    line-height:30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.1rem;
+    color: rgb(21, 21, 21);
+    background-image: url(../img/bg/bg-icon-btn.svg);
+    background-size: cover;
+}
 /* ===================================
 
     #body banner
@@ -370,10 +601,20 @@
     position: relative;
 }
 
-.banner__image-desktop::after{
+.home__banner .banner__image-desktop::after{
     content: "";
     width: 100%;
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.312);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.other__banner .banner__image-desktop::after{
+    content: "";
+    width: 100%;
+    height: 70vh;
     background-color: rgba(0, 0, 0, 0.312);
     position: absolute;
     top: 0;
@@ -486,6 +727,39 @@
 
 ========================================*/
 
+/* craft beer
+========================================= */
+.section__craft-beer {
+    background-color: rgba(0, 0, 0, 0.861);
+    position: relative;
+}
+
+.section__craft-beer::before {
+    
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner/about_us-1.jpg);
+    background-position: bottom center;
+    background-attachment: fixed;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.craft__beer-header {
+    padding-top: 20px;
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-white);
+    text-align: center;
+}
+.section__craft-beer img {
+    width: 100px;
+}
+
 /* section about
 ======================================== */
 .section__about {
@@ -517,4 +791,218 @@
     /* width: 100%; */
     /* height: 60vh; */
     background-color: #0c0b09;
+}
+
+/* section testimonial
+=========================================== */
+.section__testimonial {
+    padding: 60px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.blockquote {
+    border: 2px solid rgb(47, 47, 47);
+    background-color: rgba(4, 4, 0, 0.975);
+    /*min-height: 250px;
+    */box-shadow: 0 0 30px 2px rgba(96, 96, 96, 0.452);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+.blockquote p {
+    font-family: var(--font-handwriting-1);
+    line-height: 40px;
+    font-size: 20px;
+    /* font-weight: 300; */
+    color: rgb(255, 255, 255);
+
+}
+
+.blockquote .client__name {
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    color: rgb(225, 225, 225);
+}
+
+.blockquote .client__profile {
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(185, 185, 185);
+}
+
+.testimonial__img {
+    background-image: url(../img/testimonials/001.jpg);
+    width: 400px;
+    height: 300px;
+}
+
+/* =========================================
+
+    #menu
+
+============================================*/
+.menu__block {
+    margin-bottom: 25px;
+}
+
+.menu__block .menu__header {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed rgba(117, 117, 117, 0.6);
+}
+
+.dish__name {
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-theme);
+}
+
+.dish__price {
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+/* ===================================
+
+    Contact Us Page
+
+=======================================*/
+.contact__us-form {
+    border: 1px solid #1b1b1a;
+    background-color: rgb(25, 23, 23);
+    border-radius: 5px;
+}
+
+.contact__us-form-header .article__header{
+    color: var(--color-theme);
+}
+
+/*  Form
+======================================== */
+.form-label {
+    padding-left: 10px;
+    font-family: var(--font-secondary);
+    color: var(--color-white);
+}
+
+.form-control {
+    border: 1px solid #303030;
+    background-color: #383838;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.form-control:focus {
+    border-color: var(--color-theme);
+    background-color: rgb(45, 45, 45);
+}
+
+/* contact us aside section
+========================================= */
+.aside__header{
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-family: var(--font-secondary);
+    font-size: 1.2rem;
+    color: var(--color-theme);
+}
+
+.section__contact_us {
+    border: 1px solid #1b1b1a;
+    background-color: rgb(25, 23, 23);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact__body {
+    
+    padding: 12px 20px;
+}
+.contact__body p, .contact__body address {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.contact__us-block {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #646464;
+}
+
+.contact__us-block-header {
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    color: #fff;
+}
+
+.conatct__us-block-data a, .conatct__us-block-data address, .conatct__us-block-data span{
+    font-family: var(--font-text);
+    font-size: 1rem;
+    color: rgb(190, 190, 190) !important;
+}
+.conatct__us-block-data address {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    color: rgb(190, 190, 190) !important;
+}
+
+/* Map
+======================================= */
+.section__map {
+    background-color: #111111;
+}
+
+.map {
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 400px;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+/* =========================================
+
+    #fixed
+
+=============================================*/
+.reservation__button {
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    text-align: center;
+}
+
+.reservation__button a {
+    line-height: 50px;
+    display: block;
+    font-family: var(--font-secondary);
+    background-color: transparent;
+    background-image: url(../img/bg/bg-btn.svg);
+    background-size: cover;
+    color: rgb(25, 25, 25);
+}
+
+
+.reservation__button a:hover {
+    opacity: 0.8;
+}
+
+.reservation__button a i {
+    display: inline-block;
+    margin-right: 12px;
 }
