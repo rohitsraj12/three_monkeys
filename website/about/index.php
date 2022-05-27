@@ -11,8 +11,12 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner">
-            <div class="banner__image">
+        <div class="body__banner other__banner bg-dark" >
+            <div class="banner__image"data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
 
                 <div class="banner__image-desktop">
                     <img src="<?php echo base_url();?>assets/img/banner/about_us.jpg" alt="">
@@ -31,13 +35,21 @@
                 <div class="banner__content-wrap">
                     <section class="wrap__container">
                         <article>
-                            <header class="banner__header">
+                            <header class="banner__header" data-aos="zoom-out"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <h2>
                                     About Us
                                 </h2>
                             </header>
                             
-                            <div class="banner__body">
+                            <div class="banner__body" data-aos="zoom-out"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <ul>
                                     <li><a href="">Home</a></li>
                                     <li><a href="">About Us</a></li>
@@ -60,7 +72,11 @@
 
                             <div class="col-md-12">
                                 <article>
-                                    <header class="article__header pb-4 text-center">
+                                    <header class="article__header pb-4 text-center" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                         <p class="primary__header-sub sub__style-center">
                                             Our story
                                         </p>
@@ -73,11 +89,19 @@
                                         <div class="pb-5">
                                             <div class="row justify-content-center">
                                                 <div class="col-md-6">
-                                                    <figure>
+                                                    <figure data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                         <img class="w-100" src="<?php echo base_url();?>assets/img/about/001.jpg" alt="">
                                                     </figure>
                                                 </div>
-                                                <div class="col-12">
+                                                <div class="col-12" data-aos="slide-up"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                     
                                                     <!-- <h6 class="article__header">
                                                         Kishkinda- The Mythical Monkey Kingdom in Hampi
@@ -102,11 +126,19 @@
                                             <div class="row justify-content-center">
                                                 
                                                 <div class="col-md-6">
-                                                    <figure>
+                                                    <figure data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                         <img class="w-100" src="<?php echo base_url();?>assets/img/about/001.jpg" alt="">
                                                     </figure>
                                                 </div>
-                                                <div class="col-12">
+                                                <div class="col-12" data-aos="slide-up"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                     <h6 class="article__header">
                                                         Kishkinda- The Mythical Monkey Kingdom in Hampi
                                                     </h6>
@@ -137,11 +169,19 @@
                                        <div class="pb-4 text-center">
                                            <div class="row justify-content-center">
                                                 <div class="col-md-6">
-                                                    <figure>
+                                                    <figure data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                         <img class="w-100" src="<?php echo base_url();?>assets/img/about/001.jpg" alt="">
                                                     </figure>
                                                </div>
-                                               <div class="col-12">
+                                               <div class="col-12" data-aos="slide-up"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                    
                                                     <p>
                                                         So, while you enjoy your drinks at Three Monkeys we make sure to give you a feel of our culture and history.
@@ -171,8 +211,12 @@
 
                 <section class="section__why py-5 border__t">
                     <div class="wrap__container py-5">
-                        <header class="section__header text-center">
-                            <p class="primary__header-sub sub__style-center">
+                        <header class="section__header text-center" data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
+                            <p class="primary__header-sub sub__style-center" >
                                 Story of
                             </p>
                             <p class="primary__header">
@@ -184,17 +228,29 @@
                             <div class="row justify-content-center">
                                 
                                 <div class="col-md-4 text-center">
-                                    <img class="w-50" src="<?php echo base_url();?>assets/img/brand/logo.svg" alt="">
+                                    <img class="w-50" src="<?php echo base_url();?>assets/img/brand/logo.svg" alt="" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 </div>
                                 <div class="col-md-8">
                                     <section>
                                         <article>
-                                            <header class="article">
+                                            <header class="article"data-aos="fade-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                 <h2 class="article__header">
                                                     Three Monkeys- Micro Brewery
                                                 </h2>
                                             </header>
-                                            <article class="article__body">
+                                            <article class="article__body"data-aos="slide-up"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                                 <p>
                                                     What’s behind the logo!
                                                 </p>
