@@ -11,7 +11,11 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner">
+        <div class="body__banner other__banner" data-aos="fade-in"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in">
             <div class="banner__image">
 
                 <div class="banner__image-desktop">
@@ -31,13 +35,21 @@
                 <div class="banner__content-wrap">
                     <section class="wrap__container">
                         <article>
-                            <header class="banner__header">
+                            <header class="banner__header" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <h2>
                                     Contact Us
                                 </h2>
                             </header>
                             
-                            <div class="banner__body">
+                            <div class="banner__body" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <ul>
                                     <li><a href="">Home</a></li>
                                     <li><a href="">Contact Us</a></li>
@@ -63,14 +75,26 @@
                                     <section class="contact__us-form px-4 py-5">
                                         <article>
                                             <header class="contact__us-form-header text-center pb-2 mb-4 border__b">
-                                                <h2 class="article__header">
+                                                <h2 class="article__header" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                     Contact Us
                                                 </h2>
-                                                <p>
+                                                <p data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                                 </p>
                                             </header>
-                                            <article class="article__body">
+                                            <article class="article__body" data-aos="fade-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                 <form action="">
                                                     <div class="mb-4">
                                                         <label for="exampleFormControlInput1" class="form-label">Full Name</label>
@@ -100,7 +124,11 @@
                                 </div>
                                 <div class="col-md-4">
                                     <aside class="aside px-4">
-                                        <section class="section__contact_us mb-3">
+                                        <section class="section__contact_us mb-3" data-aos="fade-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                             <article class="contact">
                                                 <header class="contact__header aside__header text-center py-3 border__b">
                                                     Contact Details
@@ -141,7 +169,11 @@
                                                 </div>
                                             </article>
                                         </section>
-                                        <section class="section__contact_us">
+                                        <section class="section__contact_us" data-aos="fade-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                             <article class="contact">
                                                 <header class="contact__header aside__header text-center py-3 border__b">
                                                     Follow Us
