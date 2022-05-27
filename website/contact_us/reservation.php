@@ -12,7 +12,11 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner">
+        <div class="body__banner other__banner"  data-aos="fade-in"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in">
             <div class="banner__image">
 
                 <div class="banner__image-desktop">
@@ -32,13 +36,21 @@
                 <div class="banner__content-wrap">
                     <section class="wrap__container">
                         <article>
-                            <header class="banner__header">
+                            <header class="banner__header" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <h2>
                                     Reservation
                                 </h2>
                             </header>
                             
-                            <div class="banner__body">
+                            <div class="banner__body" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <ul>
                                     <li><a href="">Home</a></li>
                                     <li><a href="">Contact Us</a></li>
@@ -65,11 +77,19 @@
                                     <section class="contact__us-form px-4 py-5">
                                         <article>
                                             <header class="contact__us-form-header text-center pb-2 mb-4 border__b">
-                                                <h2 class="article__header pb-3">
+                                                <h2 class="article__header pb-3" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                     Reservation
                                                 </h2>
                                                 <div class="row text-center reservation__contact">
-                                                    <div class="col-sm-6 col-md-4">
+                                                    <div class="col-sm-6 col-md-4" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                         <div class="contact__us-bloc">
                                                             <p class="contact__us-block-header">
                                                                 Email Address
@@ -80,7 +100,11 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-6 col-md-4">
-                                                        <div class="contact__us-bloc">
+                                                        <div class="contact__us-bloc" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                             <p class="contact__us-block-header">
                                                                 Phone Number
                                                             </p>
@@ -91,7 +115,11 @@
                                                     
                                                     </div>
                                                     <div class="col-sm-6 col-md-4">
-                                                        <div class="contact__us-bloc">
+                                                        <div class="contact__us-bloc" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                             <p class="contact__us-block-header">
                                                             Our Working Hours
                                                             </p>
@@ -102,7 +130,11 @@
                                                     </div>
                                                 </div>
                                             </header>
-                                            <article class="article__body">
+                                            <article class="article__body" data-aos="zoom-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
                                                 <form action="">
                                                     <div class="row">
                                                         <div class="col-md-4">
