@@ -54,7 +54,7 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                                        <li class="footer__nav-list"><a href="<a href="<?php echo base_url();?>" class="footer__nav-link">Home</a></li>
+                                        <li class="footer__nav-list"><a href="<?php echo base_url();?>" class="footer__nav-link">Home</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>about/" class="footer__nav-link">About</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>craft_beers/" class="footer__nav-link">Crafted Beer</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>menu/" class="footer__nav-link">Menu</a></li>
