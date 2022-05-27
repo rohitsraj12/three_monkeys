@@ -10,7 +10,11 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner">
+        <div class="body__banner other__banner" data-aos="fade-in"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in">
             <div class="banner__image">
 
                 <div class="banner__image-desktop">
@@ -30,13 +34,21 @@
                 <div class="banner__content-wrap">
                     <section class="wrap__container">
                         <article>
-                            <header class="banner__header">
+                            <header class="banner__header" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <h2>
                                     Menu
                                 </h2>
                             </header>
                             
-                            <div class="banner__body">
+                            <div class="banner__body" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <ul>
                                     <li><a href="">Home</a></li>
                                     <li><a href="">Menu</a></li>
@@ -53,7 +65,11 @@
         <div class="body__container">
             <main>
                    
-                <section class="section__why border__b">
+                <section class="section__why border__b" data-aos="fade-in"
+            data-aos-offset="100"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in">
                     <div class="container-fluid">
 
                         <div class="section__body">
@@ -62,7 +78,11 @@
                                     <section>
                                         <article>
                                             
-                                            <figure class="m-0">
+                                            <figure class="m-0" data-aos="fade-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                 <img class="w-100" src="<?php echo base_url();?>assets/img/menu/menu-1.jpg" alt="">
                                             </figure>
                                         </article>
@@ -73,10 +93,18 @@
                                         <article>
                                             
                                             <header class="section__header text-center pb-5">
-                                                <p class="primary__header-sub sub__style-center">
+                                                <p class="primary__header-sub sub__style-center" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                     Tasty and Healthy
                                                 </p>
-                                                <p class="primary__header">
+                                                <p class="primary__header" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                     SALADS AND SNACKS
                                                 </p>
                                             </header>
@@ -85,7 +113,11 @@
                                                 <div class="row gx-5">
                                                     <div class="col-md-6">
 
-                                                        <div class="menu__block">
+                                                        <div class="menu__block" data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -114,7 +146,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block" data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -143,7 +179,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block" data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -172,7 +212,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block" data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -201,7 +245,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block" data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -230,7 +278,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block" data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -259,7 +311,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block" data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -288,7 +344,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block" data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -396,10 +456,18 @@
                                         <article>
                                             
                                             <header class="section__header text-center pb-5">
-                                                <p class="primary__header-sub sub__style-center">
+                                                <p class="primary__header-sub sub__style-center" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                     Strong & Sweet
                                                 </p>
-                                                <p class="primary__header">
+                                                <p class="primary__header" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                     BAR MENU
                                                 </p>
                                             </header>
@@ -408,7 +476,11 @@
                                                 <div class="row gx-5">
                                                     <div class="col-md-6">
 
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -437,7 +509,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -466,7 +542,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -495,7 +575,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -524,7 +608,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -553,7 +641,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -582,7 +674,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -611,7 +707,11 @@
                                                     </div>
 
                                                     <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -641,7 +741,11 @@
                                                     </div>
 
                                                     <!-- <div class="col-md-6">
-                                                        <div class="menu__block">
+                                                        <div class="menu__block"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
@@ -708,7 +812,11 @@
                                     <section>
                                         <article>
                                             
-                                            <figure class="m-0">
+                                            <figure class="m-0"  data-aos="fade-in"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
                                                 <img class="w-100" src="<?php echo base_url();?>assets/img/menu/bar_menu.jpg" alt="">
                                             </figure>
                                         </article>
