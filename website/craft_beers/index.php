@@ -10,7 +10,11 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner">
+        <div class="body__banner other__banner" data-aos="fade-in"
+            data-aos-offset="100"
+            data-aos-delay="0"
+            data-aos-duration="400"
+            data-aos-easing="ease-in">
             <div class="banner__image">
 
                 <div class="banner__image-desktop">
@@ -30,13 +34,21 @@
                 <div class="banner__content-wrap">
                     <section class="wrap__container">
                         <article>
-                            <header class="banner__header">
+                            <header class="banner__header" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <h2>
                                     Craft Beer
                                 </h2>
                             </header>
                             
-                            <div class="banner__body">
+                            <div class="banner__body" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                 <ul>
                                     <li><a href="">Home</a></li>
                                     <li><a href="">Craft Beer</a></li>
@@ -60,16 +72,28 @@
                             <div class="col-md-6">
                                 <article>
                                     <header class="article__header pb-4">
-                                        <p class="primary__header-sub sub__style">
+                                        <p class="primary__header-sub sub__style" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                             Three Moneys
                                         </p>
-                                        <p class="primary__header">
+                                        <p class="primary__header" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                             Craft Beer Name
                                         </p>
                                     </header>
 
                                     <div class="article__body">
-                                        <p>
+                                        <p data-aos="slide-up"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe neque veritatis magni illo inventore sed ducimus, dicta fuga totam et doloribus fugit dignissimos alias deleniti incidunt perspiciatis eius? Laborum, hic. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, voluptates in. Amet dicta placeat quae laboriosam pariatur ratione dignissimos odio maiores voluptatem eius saepe quasi perspiciatis minus mollitia, dolorum assumenda facilis labore qui? Repudiandae dicta voluptatibus exercitationem perspiciatis rem praesentium.
                                         </p>
                                        
@@ -81,7 +105,11 @@
                             <div class="col-md-1"></div>
 
                             <div class="col-md-5">
-                                <figure>
+                                <figure data-aos="fade-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                     <img class="w-100" src="<?php echo base_url();?>assets/img/craft-beer/beer-1.jpg" alt="">
                                 </figure>
                             </div>
@@ -95,7 +123,11 @@
                         <div class="row py-5 align-items-center g-4">
 
                             <div class="col-md-5">
-                                <figure>
+                                <figure data-aos="fade-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                     <img class="w-100" src="<?php echo base_url();?>assets/img/craft-beer/beer-1.jpg" alt="">
                                 </figure>
                             </div>
@@ -105,16 +137,28 @@
                             <div class="col-md-6">
                                 <article>
                                     <header class="article__header pb-4">
-                                        <p class="primary__header-sub sub__style">
+                                        <p class="primary__header-sub sub__style" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                             Three Moneys
                                         </p>
-                                        <p class="primary__header">
+                                        <p class="primary__header" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                             Craft Beer Name
                                         </p>
                                     </header>
 
                                     <div class="article__body">
-                                        <p>
+                                        <p data-aos="slide-up"
+                                            data-aos-offset="100"
+                                            data-aos-delay="50"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe neque veritatis magni illo inventore sed ducimus, dicta fuga totam et doloribus fugit dignissimos alias deleniti incidunt perspiciatis eius? Laborum, hic. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, voluptates in. Amet dicta placeat quae laboriosam pariatur ratione dignissimos odio maiores voluptatem eius saepe quasi perspiciatis minus mollitia, dolorum assumenda facilis labore qui? Repudiandae dicta voluptatibus exercitationem perspiciatis rem praesentium.
                                         </p>
                                        
