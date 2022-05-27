@@ -10,7 +10,7 @@
     include("private/required/header.inc.php");
 
 ?>
-        <div class="body__banner home__banner"  data-aos="fade-in"
+        <div class="body__banner home__banner" data-aos="fade-in"
             data-aos-offset="100"
             data-aos-delay="0"
             data-aos-duration="400"
@@ -214,10 +214,10 @@
                                             
                                             <header class="section__header text-center pb-5">
                                                 <p class="primary__header-sub sub__style-center" data-aos="zoom-in"
-                                        data-aos-offset="100"
-                                        data-aos-delay="50"
-                                        data-aos-duration="1000"
-                                        data-aos-easing="ease-in">
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="50"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
                                                     Our
                                                 </p>
                                                 <p class="primary__header" data-aos="zoom-in"
@@ -233,11 +233,7 @@
                                                 <div class="row gx-5">
                                                     <div class="col-md-6">
 
-                                                        <div class="menu__block"  data-aos="fade-in"
-                                                            data-aos-offset="100"
-                                                            data-aos-delay="50"
-                                                            data-aos-duration="1000"
-                                                            data-aos-easing="ease-in"  data-aos="zoom-out"
+                                                        <div class="menu__block" data-aos="fade-in"
                                                             data-aos-offset="100"
                                                             data-aos-delay="50"
                                                             data-aos-duration="1000"
