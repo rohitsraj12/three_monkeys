@@ -600,6 +600,9 @@
 .banner__image-desktop{
     position: relative;
 }
+.other__banner {
+    background-color: #121212;
+}
 
 .home__banner .banner__image-desktop::after{
     content: "";
