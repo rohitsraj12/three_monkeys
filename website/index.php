@@ -41,7 +41,7 @@
                                 <h2></h2>
                             </header> -->
                             <figure>
-                                <img src="assets/img/brand/logo_banner.svg" alt="">
+                                <!-- <img src="assets/img/brand/logo_banner.svg" alt=""> -->
                             </figure>
                             <!-- <div class="banner__body">
                                 <p>
@@ -85,7 +85,11 @@
                                         </header>
 
                                         <div class="section__body pb-3">
-                                            <div class="row gx-5">
+                                            <div class="row gx-5" data-aos="fade-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
                                                 <p>
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel dicta, ducimus, iste ipsa debitis laboriosam fuga exercitationem impedit magnam animi voluptates quos deserunt doloribus sint fugiat dolore vero non quas enim pariatur? Itaque recusandae impedit voluptas saepe obcaecati officiis!
                                                 </p>
