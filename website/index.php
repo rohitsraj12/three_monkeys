@@ -58,6 +58,70 @@
         <div class="body__container">
             <main>
 
+            <section class="section__about-us bg__dark py-5">
+                <div class="container  my-5">
+
+                    <div class="section__body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <section class="py-5">
+                                    <article>
+                                        
+                                        <header class="section__header py-3">
+                                            <p class="primary__header-sub sub__style" data-aos="zoom-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
+                                                Our
+                                            </p>
+                                            <p class="primary__header" data-aos="zoom-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
+                                                About Us
+                                            </p>
+                                        </header>
+
+                                        <div class="section__body pb-3">
+                                            <div class="row gx-5">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel dicta, ducimus, iste ipsa debitis laboriosam fuga exercitationem impedit magnam animi voluptates quos deserunt doloribus sint fugiat dolore vero non quas enim pariatur? Itaque recusandae impedit voluptas saepe obcaecati officiis!
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <footer class="section__footer text-center" > 
+                                            <a href="<?php echo base_url();?>menu/" class="btn__primary"data-aos="zoom-out"
+                                            data-aos-offset="100"
+                                            data-aos-delay="50"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in">
+                                                View More
+                                            </a>
+                                        </footer>
+                                    </article>
+                                </section>
+                            </div>
+                            <div class="col-md-6 px-0">
+                                <section>
+                                    <article  data-aos="fade-in"
+                                    data-aos-offset="100"
+                                    data-aos-delay="50"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in">
+                                        <figure class="m-0">
+                                            <img class="w-100" src="<?php echo base_url();?>assets/img/about/about-bg.jpg" alt="">
+                                        </figure>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
                 <section class="section__craft-beer py-5">
                     <div class="wrap__container py-5">
                         <header class="section__header text-center pb-5" data-aos="zoom-in"
