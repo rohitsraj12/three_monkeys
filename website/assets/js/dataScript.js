@@ -1,24 +1,24 @@
 $(document).ready(function(){
-    $(".header__contact .address").text('Grand Mercure, Gopalan Mall');
-    $(".header__contact .tel").text('+91 999 999 9999');
-    $(".header__contact .mailto").text('contact@mail.com');
+    $(".header__contact .address").text('Gopalan Mall, Old Madras Road');
+    $(".header__contact .tel").text('080 6690 9999');
+    $(".header__contact .mailto").text('gm.3monkeys@gmail.com');
     $(".header__contact .timing").text('10:00am to 11.30pm');
 
     //footer
-    $(".footer__contact .address").text('Grand Mercure, Gopalan Mall, Bangalore');
-    $(".footer__contact .tel").text('+91 999 999 9999');
-    $(".footer__contact .mailto").text('contact@mail.com');
+    $(".footer__contact .address").html('4th Floor, Gopalan Signature Mall,</br> Old Madras Road, Bengaluru 560038');
+    $(".footer__contact .tel").text('080 6690 9999');
+    $(".footer__contact .mailto").text('gm.3monkeys@gmail.com');
     $(".footer__contact .timing").text('10:00am to 11.30pm');
 
     //contact us page
-    $(".section__contact_us .address").text('Grand Mercure, Gopalan Mall, Bangalore');
-    $(".section__contact_us .tel").text('+91 999 999 9999');
-    $(".section__contact_us .mailto").text('contact@mail.com');
+    $(".section__contact_us .address").text('4th Floor, Gopalan Signature Mall, Old Madras Road, Bengaluru 560038');
+    $(".section__contact_us .tel").text('080 6690 9999');
+    $(".section__contact_us .mailto").text('gm.3monkeys@gmail.com');
     $(".section__contact_us .timing").text('10:00am to 11.30pm');
     
-    //contact us page
-    $(".reservation__contact .address").text('Grand Mercure, Gopalan Mall, Bangalore');
-    $(".reservation__contact .tel").text('+91 999 999 9999');
-    $(".reservation__contact .mailto").text('contact@mail.com');
+    //reservation page
+    $(".reservation__contact .address").text('4th Floor, Gopalan Signature Mall, Old Madras Road, Bengaluru 560038');
+    $(".reservation__contact .tel").text('080 6690 9999');
+    $(".reservation__contact .mailto").text('gm.3monkeys@gmail.com');
     $(".reservation__contact .timing").text('10:00am to 11.30pm');
 })
