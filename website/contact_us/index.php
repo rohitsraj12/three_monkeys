@@ -196,7 +196,8 @@
                 </section>
 
                 <section class="section__map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7776.195879112832!2d77.5983203!3d12.9655844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15d7a5de4879%3A0x8006628bd5096119!2sGopalan%20Enterprises!5e0!3m2!1sen!2sin!4v1653383884230!5m2!1sen!2sin" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.8361009100693!2d77.6611738!3d12.992805599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1188a4860b47%3A0xd58191ebbe1509e4!2sGopalan%20Signature%20Mall!5e0!3m2!1sen!2sin!4v1654238391050!5m2!1sen!2sin" width="600"  class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
                 </section>
             </main>
         </div>
