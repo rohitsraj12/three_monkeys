@@ -20,7 +20,10 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id maiores sed nostrum quaerat, recusandae eveniet! Temporibus amet, libero quo saepe facilis aliquam, blanditiis 
+                                        Three
+Monkeys- Brewpub located in Old Madras Road, is one of the best micro-brewery in
+Bangalore. Its modern concept and traditional interiors, makes it one of the
+most unique pubs across the city.
                                     </p>
                                     <footer>
                                         <ul class="footer__social" data-aos="fade-in"
@@ -56,7 +59,8 @@
                                         data-aos-easing="ease-in">
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>" class="footer__nav-link">Home</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>about/" class="footer__nav-link">About</a></li>
-                                        <li class="footer__nav-list"><a href="<?php echo base_url();?>craft_beers/" class="footer__nav-link">Crafted Beer</a></li>
+                                        <li class="footer__nav-list"><a href="<?php echo base_url();?>craft_beers/" class="footer__nav-link">Craft Beer</a></li>
+                                        <li class="footer__nav-list"><a href="<?php echo base_url();?>craft_beers/beers_on_rotation.php" class="footer__nav-link">Beer On Rotation</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>menu/" class="footer__nav-link">Menu</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>gallery/" class="footer__nav-link">Gallery</a></li>
                                         <li class="footer__nav-list"><a href="<?php echo base_url();?>contact_us/" class="footer__nav-link">Contact Us</a></li>
