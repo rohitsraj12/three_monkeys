@@ -105,6 +105,7 @@
     letter-spacing: 0.5px;
     line-height: 1.6rem;
     color: var(--color-text-2);
+    text-transform: capitalize;
   }
 
   small {
@@ -248,11 +249,12 @@
     /* opacity: 0.3; */
   }
 
-  .secondary__heading {
+  .secondary__header {
     font-family: var(--font-primary);
     font-size: 1.8rem;
-    font-weight: 400; 
-    color: #ffffff;
+    font-weight: 300; 
+    color: var(--color-theme);
+    /* color: #fff; */
   }
 
   .article__header {
@@ -612,7 +614,7 @@
     content: "";
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.312);
+    /* background-color: rgba(0, 0, 0, 0.312); */
     position: absolute;
     top: 0;
     left: 0;
@@ -763,9 +765,9 @@
     color: var(--color-white);
     text-align: center;
 }
-.section__craft-beer img {
+/* .section__craft-beer img {
     width: 100px;
-}
+} */
 
 /* section about
 ======================================== */
@@ -846,6 +848,77 @@
     background-image: url(../img/testimonials/001.jpg);
     width: 400px;
     height: 300px;
+}
+
+/* =========================================
+
+  #rotation beer
+
+============================================*/
+.rotation__block {
+  position: relative;
+  border: 1px solid #535353;
+  /* background-image: url("../img/icons/beer-icon.png");
+  background-repeat: no-repeat; */
+  /* background-color: rgba(12, 11, 11, 0.949); */
+}
+
+.rotation__block .article__header{
+}
+
+
+.rotation__block::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/bg/beer-1.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* .rotation__block::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 11, 11, 0.949);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+} */
+
+.rotation__block .article__body ul li{
+  border-bottom: 1px solid #3d3d3ddf ;
+  padding: 5px;
+  display: flex;
+}
+
+.rotation__block .article__body ul li span {
+  display: inline-block;
+}
+
+.rotation__block .article__body ul li:last-child {
+  border-bottom: none ;
+
+}
+
+
+.rotation__block .article__body ul .left__block-beer {
+  width: 130px;
+  border-right: 1px solid #1d1d1ddf ;
+  color: var(--color-theme);
+  font-weight: 100;
+
+}
+
+
+.rotation__block .article__body ul .right__block-beer{
+  padding-left: 6px;
+  color: rgb(216, 216, 216);
 }
 
 /* =========================================
