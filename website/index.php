@@ -60,27 +60,41 @@
 
             <section class="section__about-us bg__dark py-5">
                 <div class="container  my-5">
-
+            
                     <div class="section__body">
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
+                        <div class="row align-items-center text-center">
+                            <div class="col-md-12">
                                 <section class="py-5">
                                     <article>
                                         
-                                        <header class="section__header py-3">
-                                            <p class="primary__header-sub sub__style" data-aos="zoom-in"
+                                        <header class="section__header pb-3">
+                                            <!-- <p class="primary__header-sub" data-aos="zoom-in"
                                                 data-aos-offset="100"
                                                 data-aos-delay="50"
                                                 data-aos-duration="1000"
                                                 data-aos-easing="ease-in">
-                                                Our
-                                            </p>
-                                            <p class="primary__header" data-aos="zoom-in"
+                                                Welcome to
+                                            </p> -->
+                                            <!-- <p class="primary__header" data-aos="zoom-in"
                                                 data-aos-offset="100"
                                                 data-aos-delay="50"
                                                 data-aos-duration="1000"
                                                 data-aos-easing="ease-in">
-                                                About Us
+                                                Three Monkeys
+                                            </p> -->
+                                            <figure data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
+                                                <img src="<?php echo base_url();?>assets/img/namaste.png" alt="">
+                                            </figure>
+                                            <p class="primary__header pt-2 pb-3" data-aos="zoom-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
+                                                Namaskara
                                             </p>
                                         </header>
 
@@ -91,7 +105,16 @@
                                                 data-aos-duration="1000"
                                                 data-aos-easing="ease-in">
                                                 <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vel dicta, ducimus, iste ipsa debitis laboriosam fuga exercitationem impedit magnam animi voluptates quos deserunt doloribus sint fugiat dolore vero non quas enim pariatur? Itaque recusandae impedit voluptas saepe obcaecati officiis!
+                                                Three Monkeys - Brewpub is a micro brewery designed keeping the hoysala architecture in mind.
+                                                </p>
+                                                <p>
+                                                Developed under the rule of the hoysala empire in the region of Karnataka between the 11 th and the 14 th
+centuries, Hoysala Architecture is the building style in Hindu Temple Architecture.
+                                                </p>
+                                                <p>
+                                                This architectural style is an offshoot of the Western Chalukya style and shows a distinct Dravidian
+influence. With many unique features, the hoysala Architecture is considered as an independent
+architectural tradition with attention to exquisite detail and skilled craftsmanship.
                                                 </p>
                                             </div>
                                         </div>
@@ -108,7 +131,7 @@
                                     </article>
                                 </section>
                             </div>
-                            <div class="col-md-6 px-0">
+                            <!-- <div class="col-md-6 px-0">
                                 <section>
                                     <article  data-aos="fade-in"
                                     data-aos-offset="100"
@@ -120,7 +143,7 @@
                                         </figure>
                                     </article>
                                 </section>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -133,11 +156,12 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                            <p class="primary__header-sub sub__style-center">
-                                three Monkey's
-                            </p>
+                            
                             <p class="primary__header">
                                 Craft Beer
+                            </p>
+                            <p class="primary__header-sub sub__style-center">
+                            Say cheers to some of the finest beers
                             </p>
                         </header>
 
@@ -149,16 +173,24 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                                        <article class="craft__beet-article">
+                                        <article class="craft__beet-articl">
                                             <figure>
-                                                <img src="<?php echo base_url();?>assets/img/craft-beer/01.png" alt="">
+                                                <img class="w-100" src="<?php echo base_url();?>assets/img/craft-beer/02.jpg" alt="">
                                             </figure>
-                                            <header class="">
+                                            <header class="pb-3">
                                                 <h1 class="craft__beer-header">
-                                                    Lorem, ipsum dolor.
+                                                    Beers on Tap
                                                 </h1>
                                             </header>
-                                            
+                                            <footer class="section__footer text-center">
+                                                <a href="<?php echo base_url();?>craft_beers/" class="btn__primary" data-aos="slide-up"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
+                                                    Read More
+                                                </a>
+                                            </footer>
                                         </article>
                                     </section>
                                 </div>
@@ -170,18 +202,26 @@
                                         data-aos-easing="ease-in">
                                         <article class="craft__beet-article">
                                             <figure>
-                                                <img src="<?php echo base_url();?>assets/img/craft-beer/02.png" alt="">
+                                            <img  class="w-100"  src="<?php echo base_url();?>assets/img/craft-beer/01.jpg" alt="">
                                             </figure>
-                                            <header class="">
+                                            <header class="pb-3">
                                                 <h1 class="craft__beer-header">
-                                                    Lorem, ipsum dolor.
+                                                    Beer on Rotation
                                                 </h1>
                                             </header>
-                                            
+                                            <footer class="section__footer text-center">
+                                                <a href="<?php echo base_url();?>craft_beers/beers_on_rotation.php" class="btn__primary" data-aos="slide-up"
+                                                            data-aos-offset="100"
+                                                            data-aos-delay="50"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in">
+                                                    Read More
+                                                </a>
+                                            </footer>
                                         </article>
                                     </section>
                                 </div>
-                                <div class="col-md-3">
+                                <!-- <div class="col-md-3">
                                     <section data-aos="zoom-in"
                                         data-aos-offset="100"
                                         data-aos-delay="50"
@@ -199,18 +239,10 @@
                                             
                                         </article>
                                     </section>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
-                        <footer class="section__footer text-center">
-                            <a href="<?php echo base_url();?>craft_beers/" class="btn__primary" data-aos="slide-up"
-                                        data-aos-offset="100"
-                                        data-aos-delay="50"
-                                        data-aos-duration="1000"
-                                        data-aos-easing="ease-in">
-                                Read More
-                            </a>
-                        </footer>
+                        
                     </div>
                 </section>
 
@@ -662,11 +694,12 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto tenetur neque dolorum temporibus ratione dignissimos ab libero amet iste.
+                                        Beautifully crafted, freshly brewed breweries with an eclectic
+range of beers and some mouth-watering appetizers.
                                     </h3>
                                 </header>
 
-                                <footer class="section__footer text-center"  data-aos="zoom-out"
+                                <!-- <footer class="section__footer text-center"  data-aos="zoom-out"
                                         data-aos-offset="100"
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
@@ -674,7 +707,7 @@
                                     <a href="<?php echo base_url();?>contact_us/reservation.php" class="btn__primary">
                                         Book Reservation
                                     </a>
-                                </footer>
+                                </footer> -->
                             </article>
                         </section>
                     </div>
