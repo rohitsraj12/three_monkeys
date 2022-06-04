@@ -146,6 +146,7 @@
         top: 0;
         right: 100%;
         background-color: rgba(0, 0, 0, 0.957);
+        border-left: 8px solid var(--color-theme);
         z-index: 999;
         /* transition: ease-in-out 4000ms;
         -webkit-transition: ease-in-out 4000ms;
