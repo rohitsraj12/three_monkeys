@@ -25,10 +25,16 @@
     <div class="body__wrap">
 
         <div class="body__header body__header-absolute" data-aos="slide-down"
-                    data-aos-offset="100"
-                    data-aos-delay="50"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in">
+            data-aos-offset="100"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in">
+
+            <div class="hamberger">
+                menu
+            </div>
+            <!-- end menu -->
+            
             <div class="body__header-top">
                 <div class="header__container-center">
                     <div class="row">
@@ -82,11 +88,13 @@
                         </ul>
                     </nav>
                 </header> -->
-
-
                 
                 <header class="header__container-center">
-                   
+                    <div class="header__brand-sm py-1">
+                        <a href="">
+                            <img src="<?php echo base_url();?>assets/img/brand/logo.svg" alt="LOGO">
+                        </a>
+                    </div>
 
                     <nav class="header__nav">
                         <ul class="main__nav" data-aos="zoom-out"
@@ -120,6 +128,20 @@
                             <li class="nav__list"><a href="<?php echo base_url();?>contact_us/reservation.php" class="nav__link <?php if($nav_active == "reservation"){ echo "active__nav" ; }?>">Reservation</a></li>
                             <!-- <li class="nav__list"><a href="<?php echo base_url();?>contact_us/" class="nav__link">Contact Us</a></li> -->
                         </ul>
+
+                        <div class="contact__sm mt-4 py-3">
+                            <ul class="header__contact">
+                                <li class="header__contact-lis"><i class="fa fa-location-arrow" aria-hidden="true"></i><a class="header__contact-link address" href="">Loading..</a></li>
+                                <li class="header__contact-lis"><i class="fa fa-phone" aria-hidden="true"></i><a class="header__contact-link tel" href="">Loading..</a></li>
+                                <li class="header__contact-lis"><i class="fa fa-clock-o" aria-hidden="true"></i><span class="header__contact-link timing" href="">Loading..</span></li>
+                            </ul>
+                            <ul class="header__social">
+                                <!-- <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li> -->
+                                <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
                     </nav>
                 </header>
             </div>
