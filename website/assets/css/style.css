@@ -414,14 +414,6 @@
     height: 130px;
 }
 
-.main__nav {
-    display: flex;
-}
-
-.nav__list + li {
-    margin-left: 40px;
-}
-
 .nav__link {
     font-family: var(--font-secondary);
     font-size: 0.9rem;
