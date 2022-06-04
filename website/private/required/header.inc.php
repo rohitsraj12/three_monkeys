@@ -31,10 +31,10 @@
             data-aos-easing="ease-in">
 
             <div class="hamberger">
-                menu
+                <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
             <!-- end menu -->
-            
+
             <div class="body__header-top">
                 <div class="header__container-center">
                     <div class="row">
