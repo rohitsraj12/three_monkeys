@@ -10,12 +10,12 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner" data-aos="fade-in"
+        <div class="body__banner other__banner">
+            <div class="banner__image" data-aos="fade-in"
             data-aos-offset="100"
             data-aos-delay="0"
             data-aos-duration="400"
             data-aos-easing="ease-in">
-            <div class="banner__image">
 
                 <div class="banner__image-desktop">
                     <img src="<?php echo base_url();?>assets/img/banner/events.jpg" alt="">
@@ -23,7 +23,7 @@
                 <!-- end banner image desktop -->
                 
                 <div class="banner__image-mobile">
-                    <img src="<?php echo base_url();?>assets/img/banner/home/banner-1-sm.jpg" alt="">
+                    <img src="<?php echo base_url();?>assets/img/banner/events-sm.jpg" alt="">
                 </div>
                 <!-- end banner image mobile -->
 
@@ -102,12 +102,12 @@
                                         </h2>
                                     </header>
                                 </a>
-                                <a class="box b fancybox" href="<?php echo base_url();?>assets/img/gallery/05.jpg" data-aos="zoom-in"
+                                <a class="box b fancybox" href="<?php echo base_url();?>assets/img/gallery/02.jpg" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="300"
                                                     data-aos-duration="1000"
                                                     data-aos-easing="ease-in">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/05.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/img/gallery/02.jpg" alt="" />
                                     <header>
                                         <p>
                                             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -118,12 +118,12 @@
                                         </h2>
                                     </header>
                                 </a>
-                                <a class="box c fancybox" href="<?php echo base_url();?>assets/img/gallery/01.jpg" data-aos="zoom-in"
+                                <a class="box c fancybox" href="<?php echo base_url();?>assets/img/gallery/03.jpg" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="500"
                                                     data-aos-duration="1000"
                                                     data-aos-easing="ease-in">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/01.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/img/gallery/03.jpg" alt="" />
                                     <header>
                                         <p>
                                             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -134,12 +134,12 @@
                                         </h2>
                                     </header>
                                 </a>
-                                <a class="box d fancybox" href="<?php echo base_url();?>assets/img/gallery/02.jpg" data-aos="zoom-in"
+                                <a class="box d fancybox" href="<?php echo base_url();?>assets/img/gallery/04.jpg" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="70"
                                                     data-aos-duration="1000"
                                                     data-aos-easing="ease-in">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/02.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/img/gallery/04.jpg" alt="" />
                                     <header>
                                         <p>
                                             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -150,12 +150,12 @@
                                         </h2>
                                     </header>
                                 </a>
-                                <a class="box e fancybox" href="<?php echo base_url();?>assets/img/gallery/02.jpg" data-aos="zoom-in"
+                                <a class="box e fancybox" href="<?php echo base_url();?>assets/img/gallery/05.jpg" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="700"
                                                     data-aos-duration="1000"
                                                     data-aos-easing="ease-in">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/02.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/img/gallery/05.jpg" alt="" />
                                     <header>
                                         <p>
                                             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -182,12 +182,12 @@
                                         </h2>
                                     </header>
                                 </a>
-                                <a class="box g fancybox" href="<?php echo base_url();?>assets/img/gallery/04.jpg" data-aos="zoom-in"
+                                <a class="box g fancybox" href="<?php echo base_url();?>assets/img/gallery/07.jpg" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="300"
                                                     data-aos-duration="1000"
                                                     data-aos-easing="ease-in">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/04.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/img/gallery/07.jpg" alt="" />
                                     <header>
                                         <p>
                                             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -198,12 +198,12 @@
                                         </h2>
                                     </header>
                                 </a>
-                                <a class="box h fancybox" href="<?php echo base_url();?>assets/img/gallery/06.jpg" data-aos="zoom-in"
+                                <a class="box h fancybox" href="<?php echo base_url();?>assets/img/gallery/08.jpg" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="500"
                                                     data-aos-duration="1000"
                                                     data-aos-easing="ease-in">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/06.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/img/gallery/08.jpg" alt="" />
                                     <header>
                                         <p>
                                             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -214,12 +214,12 @@
                                         </h2>
                                     </header>
                                 </a>
-                                <a class="box i fancybox" href="<?php echo base_url();?>assets/img/gallery/02.jpg" data-aos="zoom-in"
+                                <a class="box i fancybox" href="<?php echo base_url();?>assets/img/gallery/09.jpg" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="100"
                                                     data-aos-duration="1000"
                                                     data-aos-easing="ease-in">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/02.jpg" alt="" />
+                                    <img src="<?php echo base_url();?>assets/img/gallery/09.jpg" alt="" />
                                     <header>
                                         <p>
                                             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.
@@ -230,8 +230,12 @@
                                         </h2>
                                     </header>
                                 </a>
-                                <a class="box j fancybox" href="<?php echo base_url();?>assets/img/gallery/06.jpg">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/06.jpg" alt="" />
+                                <a class="box j fancybox" href="<?php echo base_url();?>assets/img/gallery/10.jpg" data-aos="zoom-in"
+                                                    data-aos-offset="100"
+                                                    data-aos-delay="100"
+                                                    data-aos-duration="1000"
+                                                    data-aos-easing="ease-in">
+                                    <img src="<?php echo base_url();?>assets/img/gallery/10.jpg" alt="" />
                                     <header>
                                         <p>
                                             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.
