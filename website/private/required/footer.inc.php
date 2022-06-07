@@ -3,8 +3,8 @@
             <footer>
                 <div class="footer__top mb-5">
                     <div class="wrap__container">
-                        <div class="row">
-                            <div class="col-sm-6 col-md-4">
+                        <div class="row gy-4">
+                            <div class="col-sm-6 col-md-4 text-center text-md-start">
                                 <article>
                                     <figure class="footer__figur" data-aos="fade-in"
                                         data-aos-offset="100"
@@ -20,29 +20,26 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                                        Three
-Monkeys- Brewpub located in Old Madras Road, is one of the best micro-brewery in
-Bangalore. Its modern concept and traditional interiors, makes it one of the
-most unique pubs across the city.
+                                        Three Monkeys- Brewpub located in Old Madras Road, is one of the best micro-brewery in Bangalore. Its modern concept and traditional interiors, makes it one of the most unique pubs across the city.
                                     </p>
                                     <footer>
-                                        <ul class="footer__social" data-aos="fade-in"
+                                        <ul class="footer__social justify-content-center justify-content-md-start" data-aos="fade-in"
                                         data-aos-offset="100"
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                             <!-- <li class="footer__social-list"><a href="" class="footer__social-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li> -->
-                                            <li class="footer__social-list"><a href="" class="footer__social-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li class="footer__social-list"><a href="" class="footer__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li class="footer__social-list"><a href="" class="footer__social-link"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                            <li class="footer__social-list"><a href="https://www.instagram.com/3monkeysbrewpub/" target="_blank" class="footer__social-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                            <li class="footer__social-list"><a href="https://www.facebook.com/3MonkeysBrewPub" target="_blank" class="footer__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li class="footer__social-list"><a href="https://www.youtube.com/channel/UCo_qzSCAN1sxOYixOfEt_qw" target="_blank" class="footer__social-link"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                                         </ul>
                                     </footer>
                                 </article>
                             </div>
-                            <div class="col-sm-6 col-md-1">
+                            <!-- <div class="col-sm-6 col-md-1">
 
-                            </div>
-                            <div class="col-sm-6 col-md-3">
+                            </div> -->
+                            <div class="col-sm-6 col-md-3 offset-md-1 text-center text-md-start">
                                 <article class="footer__nav">
                                     <header class="footer__header" data-aos="fade-in"
                                         data-aos-offset="100"
@@ -69,10 +66,10 @@ most unique pubs across the city.
                                 </article>
                             </div>
                             
-                            <div class="col-sm-6 col-md-1">
+                            <!-- <div class="col-sm-6 col-md-1">
                                 
-                            </div>
-                            <div class="col-sm-6 col-md-3">
+                            </div> -->
+                            <div class="col-sm-12 col-md-3 offset-md-1">
                                 <div class="footer__contact">
                                     
                                     <header class="footer__header" data-aos="fade-in"
@@ -111,7 +108,7 @@ most unique pubs across the city.
                 <div class="footer__copy-right py-3">
                     <div class="wrap__container text-center">
                         <p class="m-0 p-0">
-                            copyright &copy; <script>document.write(new Date().getFullYear());</script> | <a class="text-light" href="#" target="_blank">terms and condition</a> | <a class="text-light" href="<?php echo base_url();?>" target="_blank">threemonkeys.com</a>
+                            copyright &copy; <script>document.write(new Date().getFullYear());</script> | <a class="text-light" href="#" target="_blank">terms and condition</a> | <a class="text-light" href="<?php echo base_url();?>" target="_blank">threemonkeys.pub</a>
                         </p>
                     </div>
                 </div>
