@@ -219,8 +219,9 @@
                                             </li>
                                             <li>
                                                 <span class="left__block-beer">MOUTHFEEL</span>
-                                                <span class="right__block-beer">A complex weissbier with creamy texture and chocolate, banana & clove flavour
-</span> 
+                                                <span class="right__block-beer">
+                                                    A complex weissbier with creamy texture and chocolate, banana & clove flavour
+                                                </span> 
                                             </li>
                                         </ul>
                                     </div>
@@ -275,6 +276,7 @@
 
                                 </article>
                             </div>
+                            
                             <div class="col-md-4">
                                 <article class="rotation__block px-2" >
                                     <header class="article__header pt-3 px-2">
