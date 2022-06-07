@@ -58,9 +58,9 @@
                                     data-aos-duration="1000"
                                     data-aos-easing="ease-in">
                                 <!-- <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li> -->
-                                <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li class="header__social-list"><a href="" class="header__social-link"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                <li class="header__social-list"><a href="https://www.instagram.com/3monkeysbrewpub/" target="_blank" class="header__social-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li class="header__social-list"><a href="https://www.facebook.com/3MonkeysBrewPub" target="_blank" class="header__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li class="header__social-list"><a href="https://www.youtube.com/channel/UCo_qzSCAN1sxOYixOfEt_qw" target="_blank" class="header__social-link"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                             </ul>
                             <!-- end header social -->
                         </div>
