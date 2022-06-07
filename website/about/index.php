@@ -11,7 +11,7 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner bg-dark" >
+        <div class="body__banner other__banner" >
             <div class="banner__image"data-aos="fade-in"
                                         data-aos-offset="100"
                                         data-aos-delay="50"
@@ -24,7 +24,7 @@
                 <!-- end banner image desktop -->
                 
                 <div class="banner__image-mobile">
-                    <img src="<?php echo base_url();?>assets/img/banner/home/banner-1-sm.jpg" alt="">
+                    <img src="<?php echo base_url();?>assets/img/banner/about_us-sm.jpg" alt="">
                 </div>
                 <!-- end banner image mobile -->
 
@@ -94,7 +94,7 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                                                        <img class="w-100" src="<?php echo base_url();?>assets/img/about/001.jpg" alt="">
+                                                        <img class="w-100" src="<?php echo base_url();?>assets/img/about/about_1.jpg" alt="">
                                                     </figure>
                                                 </div>
                                                 <div class="col-12" data-aos="slide-up"
@@ -131,7 +131,7 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                                                        <img class="w-100" src="<?php echo base_url();?>assets/img/about/001.jpg" alt="">
+                                                        <img class="w-100" src="<?php echo base_url();?>assets/img/about/about_2.jpg" alt="">
                                                     </figure>
                                                 </div>
                                                 <div class="col-12" data-aos="slide-up"
@@ -174,7 +174,7 @@
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
-                                                        <img class="w-100" src="<?php echo base_url();?>assets/img/about/001.jpg" alt="">
+                                                        <img class="w-100" src="<?php echo base_url();?>assets/img/about/about_3.jpg" alt="">
                                                     </figure>
                                                </div>
                                                <div class="col-12" data-aos="slide-up"
@@ -225,10 +225,10 @@
                         </header>
 
                         <div class="section__body">
-                            <div class="row justify-content-center">
+                            <div class="row justify-content-center align-items-center">
                                 
                                 <div class="col-md-4 text-center">
-                                    <img class="w-50" src="<?php echo base_url();?>assets/img/brand/logo.svg" alt="" data-aos="zoom-in"
+                                    <img class="w-75" src="<?php echo base_url();?>assets/img/brand/logo.svg" alt="" data-aos="zoom-in"
                                         data-aos-offset="100"
                                         data-aos-delay="50"
                                         data-aos-duration="1000"
