@@ -10,12 +10,12 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner" data-aos="fade-in"
+        <div class="body__banner other__banner">
+            <div class="banner__image" data-aos="fade-in"
             data-aos-offset="100"
             data-aos-delay="0"
             data-aos-duration="400"
             data-aos-easing="ease-in">
-            <div class="banner__image">
 
                 <div class="banner__image-desktop">
                     <img src="<?php echo base_url();?>assets/img/banner/about_us.jpg" alt="">
@@ -23,7 +23,7 @@
                 <!-- end banner image desktop -->
                 
                 <div class="banner__image-mobile">
-                    <img src="<?php echo base_url();?>assets/img/banner/home/banner-1-sm.jpg" alt="">
+                    <img src="<?php echo base_url();?>assets/img/banner/about_us-sm.jpg" alt="">
                 </div>
                 <!-- end banner image mobile -->
 
@@ -65,13 +65,13 @@
         <div class="body__container">
             <main>
 
-                <section class="section__about">
+                <section class="section__craft-beer">
                     <div class="container py-5">
                         <div class="row py-5 align-items-center g-4">
 
                             <div class="col-md-6">
                                 <article>
-                                    <header class="article__header pb-4">
+                                    <header class="article__header pb-4 d-none d-md-block">
                                         <p class="primary__header-sub sub__style" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="50"
@@ -111,14 +111,28 @@
                                 </article>
                             </div>
 
-                            <div class="col-md-1"></div>
-
-                            <div class="col-md-5 text-center">
+                            <div class="col-md-5 order-first order-md-last text-center offset-md-1">
+                                <header class="article__header pb-4 d-md-none">
+                                    <p class="primary__header-sub sub__style-center" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
+                                        Three Monkeys
+                                    </p>
+                                    <p class="primary__header" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
+                                        Hefeweizen
+                                    </p>
+                                </header>
                                 <figure data-aos="fade-in"
-                                                    data-aos-offset="100"
-                                                    data-aos-delay="50"
-                                                    data-aos-duration="1000"
-                                                    data-aos-easing="ease-in">
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
                                     <img class="" src="<?php echo base_url();?>assets/img/craft-beer/beer-5.png" alt="">
                                 </figure>
                             </div>
@@ -127,25 +141,39 @@
                     </div>
                 </section>
 
-                <section class="section__about">
+                <section class="section__craft-beer">
                     <div class="container py-5">
                         <div class="row py-5 align-items-center g-4">
 
                             <div class="col-md-5 text-center">
+                                <header class="article__header pb-4 d-md-none">
+                                    <p class="primary__header-sub sub__style-center" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
+                                        Three Moneys
+                                    </p>
+                                    <p class="primary__header" data-aos="zoom-in"
+                                        data-aos-offset="100"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in">
+                                        Weizenbock
+                                    </p>
+                                </header>
                                 <figure data-aos="fade-in"
-                                                    data-aos-offset="100"
-                                                    data-aos-delay="50"
-                                                    data-aos-duration="1000"
-                                                    data-aos-easing="ease-in">
+                                    data-aos-offset="100"
+                                    data-aos-delay="50"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in">
                                     <img class="" src="<?php echo base_url();?>assets/img/craft-beer/beer-4.png" alt="">
                                 </figure>
                             </div>
 
-                            <div class="col-md-1"></div>
-
-                            <div class="col-md-6">
+                            <div class="col-md-6 offset-md-1">
                                 <article>
-                                    <header class="article__header pb-4">
+                                    <header class="article__header pb-4 d-md-block d-none">
                                         <p class="primary__header-sub sub__style" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="50"
@@ -188,14 +216,13 @@
                     </div>
                 </section>
 
-                
-                <section class="section__about">
+                <section class="section__craft-beer">
                     <div class="container py-5">
                         <div class="row py-5 align-items-center g-4">
 
                             <div class="col-md-6">
                                 <article>
-                                    <header class="article__header pb-4">
+                                    <header class="article__header pb-4 d-none d-md-block">
                                         <p class="primary__header-sub sub__style" data-aos="zoom-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="50"
@@ -235,9 +262,23 @@
                                 </article>
                             </div>
 
-                            <div class="col-md-1"></div>
-
-                            <div class="col-md-5 text-center">
+                            <div class="col-md-5 text-center order-first order-md-last offset-md-1">
+                                <header class="article__header pb-4 d-md-none">
+                                    <p class="primary__header-sub sub__style-center" data-aos="zoom-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
+                                        Three Monkeys
+                                    </p>
+                                    <p class="primary__header" data-aos="zoom-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
+                                                Belgian Session
+                                    </p>
+                                </header>
                                 <figure data-aos="fade-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="50"
@@ -251,12 +292,27 @@
                     </div>
                 </section>
 
-
-                <section class="section__about">
+                <section class="section__craft-beer">
                     <div class="container py-5">
                         <div class="row py-5 align-items-center g-4">
 
                             <div class="col-md-5 text-center">
+                                <header class="article__header pb-4 d-md-none">
+                                    <p class="primary__header-sub sub__style-center" data-aos="zoom-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
+                                        Three Moneys
+                                    </p>
+                                    <p class="primary__header" data-aos="zoom-in"
+                                                data-aos-offset="100"
+                                                data-aos-delay="50"
+                                                data-aos-duration="1000"
+                                                data-aos-easing="ease-in">
+                                                Red Ale
+                                    </p>
+                                </header>
                                 <figure data-aos="fade-in"
                                                     data-aos-offset="100"
                                                     data-aos-delay="50"
@@ -266,24 +322,22 @@
                                 </figure>
                             </div>
 
-                            <div class="col-md-1"></div>
-
-                            <div class="col-md-6">
+                            <div class="col-md-6 offset-md-1">
                                 <article>
-                                    <header class="article__header pb-4">
+                                    <header class="article__header pb-4 d-none d-md-block">
                                         <p class="primary__header-sub sub__style" data-aos="zoom-in"
-                                                    data-aos-offset="100"
-                                                    data-aos-delay="50"
-                                                    data-aos-duration="1000"
-                                                    data-aos-easing="ease-in">
+                                            data-aos-offset="100"
+                                            data-aos-delay="50"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in">
                                             Three Moneys
                                         </p>
                                         <p class="primary__header" data-aos="zoom-in"
-                                                    data-aos-offset="100"
-                                                    data-aos-delay="50"
-                                                    data-aos-duration="1000"
-                                                    data-aos-easing="ease-in">
-                                                    Red Ale
+                                            data-aos-offset="100"
+                                            data-aos-delay="50"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in">
+                                            Red Ale
                                         </p>
                                     </header>
 
