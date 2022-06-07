@@ -116,11 +116,27 @@
     .hamberger {
         display: none;
     }
+    
+
+    .home__banner .banner__image-desktop img, .home__banner .banner__image-desktop::after {
+        height: 100vh;
+    }
+
+    .other__banner .banner__image-desktop img, .other__banner .banner__image-desktop::after {
+        height: 70vh;
+    }
 }
 
 @media(max-width: 769px){
+    .banner__image-desktop{
+        display: none;
+    }
     
-    .banner__image-mobile {
+    .banner__image-mobile img{
+        width: 100%;
+    }
+
+    .menu__image {
         display: none;
     }
 
@@ -182,6 +198,10 @@
         z-index: 9999;
         color: #fff;
         font-size: 30px;
+    }
+
+    .section__craft-beer img{
+        height: 250px;
     }
     
 }
