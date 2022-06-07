@@ -10,12 +10,12 @@
     include("../private/required/header.inc.php");
 
 ?>
-        <div class="body__banner other__banner" data-aos="fade-in"
+        <div class="body__banner other__banner">
+            <div class="banner__image" data-aos="fade-in"
             data-aos-offset="100"
             data-aos-delay="0"
             data-aos-duration="400"
             data-aos-easing="ease-in">
-            <div class="banner__image">
 
                 <div class="banner__image-desktop">
                     <img src="<?php echo base_url();?>assets/img/banner/about_us.jpg" alt="">
@@ -23,7 +23,7 @@
                 <!-- end banner image desktop -->
                 
                 <div class="banner__image-mobile">
-                    <img src="<?php echo base_url();?>assets/img/banner/home/banner-1-sm.jpg" alt="">
+                    <img src="<?php echo base_url();?>assets/img/banner/about_us-sm.jpg" alt="">
                 </div>
                 <!-- end banner image mobile -->
 
