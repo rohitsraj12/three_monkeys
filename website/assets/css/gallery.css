@@ -1,5 +1,5 @@
 
-.gallery__grid p {
+  .gallery__grid p {
     display: none;
   }
   
@@ -16,8 +16,6 @@
       grid-template-rows: 100px 100px 100px 100px; */
       grid-gap: 10px;
     }
-
-    
     
     /* .gallery__grid .box:first-child {
         grid-column: 1/2;
@@ -131,16 +129,16 @@
     
     @media (max-width: 991px) {
       .gallery__grid {
-        /* grid-template:
+        grid-template:
           "1fr 1fr 1fr" 250px
           "1fr 1fr 1fr" 250px
           "1fr 1fr 1fr" 250px
           "1fr 1fr 1fr" 250px
           "1fr 1fr 1fr" 250px;
-      } */
+      }
     }
     @media (max-width: 768px) {
-      /* .gallery__grid {
+      .gallery__grid {
         grid-template:
           "1fr 1fr" 200px
           "1fr 1fr" 200px
@@ -149,7 +147,7 @@
           "1fr 1fr" 200px
           "1fr 1fr" 200px
           "1fr 1fr" 200px;
-      } */
+      }
     }
     .gallery__grid .box.h {
       grid-column: span 1;
