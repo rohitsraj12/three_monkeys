@@ -180,8 +180,8 @@
                                                 </header>
                                                 <div class="contact__body">
                                                     <ul class="contact-us__social text-center pb-3">
-                                                        <li class="header__social-list"><a href="https://www.instagram.com/3monkeysbrewpub/" class="header__social-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                                        <li class="header__social-list"><a href="https://www.facebook.com/3MonkeysBrewPub" class="header__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                        <li class="header__social-list"><a href="https://www.instagram.com/threemonkeysbrewpub/" class="header__social-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                        <li class="header__social-list"><a href="https://www.facebook.com/threemonkeysbrewpub" class="header__social-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                                         <li class="header__social-list"><a href="https://www.youtube.com/channel/UCo_qzSCAN1sxOYixOfEt_qw" class="header__social-link"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                                                     </ul>
                                                 </div>
