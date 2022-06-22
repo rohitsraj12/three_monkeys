@@ -1,10 +1,10 @@
 <?php
 
-    $page_title     = "Home Page";
+    $page_title     = "Best pubs in Bangalore | Three Monkeys Brewpub@Micro brewery";
     $nav_active     = "home";
 
-    $meta_key       = "";
-    $meta_desc      = "";
+    $meta_key       = "best pubs in bangalore, pubs in bangalore, pubs, pubs in old madras road, brewery, Microbrewery, micro brewery in bangalore";
+    $meta_desc      = "Three Monkeys- Brewpub Is One Of The Best Micro-Brewery In Bangalore. Its Modern Concept&Traditional Interiors, Makes It One Of The Unique Pubs Across The City.";
 
     include("private/config/config.php");
     include("private/required/header.inc.php");
@@ -117,7 +117,7 @@
                                             </div>
 
                                             <footer class="section__footer text-center" > 
-                                                <a href="<?php echo base_url();?>menu/" class="btn__primary"data-aos="zoom-out"
+                                                <a href="<?php echo base_url();?>about/" class="btn__primary"data-aos="zoom-out"
                                                 data-aos-offset="100"
                                                 data-aos-delay="50"
                                                 data-aos-duration="1000"
@@ -951,7 +951,7 @@
                                                     Dheeraj
                                                 </h2>
                                                 <h6 class="client__profile text-end">
-                                                    TCS                                                
+                                                    TCS, Whitefield                                                
                                                 </h6>
                                             </cite>
                                         </blockquote>
