@@ -1,11 +1,12 @@
 <?php
 
 
-    $page_title     = "About Page";
+    $page_title     = "About Three Monkeys Brewpub in Old madras Road @ Bangalore";
     $nav_active     = "about";
 
-    $meta_key       = "";
-    $meta_desc      = "";
+    $meta_key       = "about three monkeys, three monkeys brewpub, bars, top pubs in india";
+    $meta_desc      = "Gopalan Groups: Our Brand New Venture Three Monkeys- Micro Brewery Pub in BLR, Grand Mercure, Gopalan Mall, Is Designed Keeping The Hoysala Architecture In Mind
+    ";
 
     include("../private/config/config.php");
     include("../private/required/header.inc.php");
@@ -51,7 +52,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <ul>
-                                    <li><a href="">Home</a></li>
+                                    <li><a href="<?php echo base_url();?>">Home</a></li>
                                     <li><a href="">About Us</a></li>
                                 </ul>
 
