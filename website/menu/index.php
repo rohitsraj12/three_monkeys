@@ -1,10 +1,10 @@
 <?php
 
-    $page_title     = "Menu Page";
+    $page_title     = "Three monkeys brewpub Menu veg&Nonveg@ Old madras road, BLR";
     $nav_active     = "menu";
 
-    $meta_key       = "";
-    $meta_desc      = "";
+    $meta_key       = "veg&nonveg, nonveg menu, veg menu, three monkeys menu";
+    $meta_desc      = "In three monkeys brewpub provides veg& nonveg starters and pizza & mains, and from the clay oven.  Three Monkeys- Brewpub Located On Old Madras Road, Bangalore";
 
     include("../private/config/config.php");
     include("../private/required/header.inc.php");
@@ -50,7 +50,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <ul>
-                                    <li><a href="">Home</a></li>
+                                    <li><a href="<?php echo base_url();?>">Home</a></li>
                                     <li><a href="">Menu</a></li>
                                 </ul>
 
@@ -250,72 +250,6 @@
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
                                                                         Garlic Tossed Vegetables
-                                                                    </h2>
-                                                                    
-                                                                    <div class="dish__price">
-                                                                        <span></span>
-                                                                        <span>
-                                                                            250.00
-                                                                        </span>
-                                                                    </div>
-                                                                </header>
-                                                                <!-- <div class="menu__body d-flex justify-content-between">
-                                                                    <div class="dish__detail">
-                                                                        <p>
-                                                                            Is made with pieces of tomatoes, sliced cucumbers, onion, feta cheese and dressed with olive oil.
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="dish__weight">
-                                                                        200/300g
-                                                                    </div>
-                                                                </div> -->
-                                                            </article>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-6">
-                                                        <div class="menu__block" data-aos="fade-in"
-                                                            data-aos-offset="100"
-                                                            data-aos-delay="50"
-                                                            data-aos-duration="1000"
-                                                            data-aos-easing="ease-in">
-                                                            <article>
-                                                                <header class="menu__header d-flex justify-content-between">
-                                                                    <h2 class="dish__name">
-                                                                        Beer Battered Egg Fritters
-                                                                    </h2>
-                                                                    
-                                                                    <div class="dish__price">
-                                                                        <span></span>
-                                                                        <span>
-                                                                            250.00
-                                                                        </span>
-                                                                    </div>
-                                                                </header>
-                                                                <!-- <div class="menu__body d-flex justify-content-between">
-                                                                    <div class="dish__detail">
-                                                                        <p>
-                                                                            Is made with romaine, olive oil, crushed garlic, Dijon mustard, lemon juice, Parmesan cheese and croutons.
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="dish__weight">
-                                                                        350/400g
-                                                                    </div>
-                                                                </div> -->
-                                                            </article>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-6">
-                                                        <div class="menu__block" data-aos="fade-in"
-                                                            data-aos-offset="100"
-                                                            data-aos-delay="50"
-                                                            data-aos-duration="1000"
-                                                            data-aos-easing="ease-in">
-                                                            <article>
-                                                                <header class="menu__header d-flex justify-content-between">
-                                                                    <h2 class="dish__name">
-                                                                        Egg Bhurji
                                                                     </h2>
                                                                     
                                                                     <div class="dish__price">
@@ -680,7 +614,7 @@
                                                             <article>
                                                                 <header class="menu__header d-flex justify-content-between">
                                                                     <h2 class="dish__name">
-                                                                        Caesar Salad Veg/Chicken
+                                                                        Caesar Salad Veg
                                                                     </h2>
                                                                     
                                                                     <div class="dish__price">
