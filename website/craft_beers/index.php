@@ -1,10 +1,10 @@
 <?php
 
-    $page_title     = "Craft Beer Page";
+    $page_title     = "Craft Beer Pubs in BLR,Three Monkeys Brewpub@Old madras Road";
     $nav_active     = "craft";
 
-    $meta_key       = "";
-    $meta_desc      = "";
+    $meta_key       = "craft beer, craft beer pubs, craft beer pubs in bangalore, craft beer brewpub";
+    $meta_desc      = "Unfiltered Wheat Beer In The German Style. Malty Sweet And Balanced, With Moderate Banana Clove Flavor And Strong Aroma. Low Bitterness And Slightly Spicy. BLR";
 
     include("../private/config/config.php");
     include("../private/required/header.inc.php");
@@ -40,7 +40,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <h2>
-                                    Craft Beer
+                                    Beer On Tap
                                 </h2>
                             </header>
                             
@@ -50,7 +50,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <ul>
-                                    <li><a href="">Home</a></li>
+                                    <li><a href="<?php echo base_url();?>">Home</a></li>
                                     <li><a href="">Craft Beer</a></li>
                                 </ul>
 
