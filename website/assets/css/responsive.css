@@ -35,6 +35,10 @@
         width: 90%;
     }
 
+    .main__nav:first-child {
+        margin-right: 30px;
+    }
+
     .main__nav li + li{
         margin-left: 30px;
     }
@@ -75,6 +79,8 @@
     .header__contact-list {
         /* display: none; */
     }
+
+    
 }
 
 @media(min-width: 960px) {
@@ -128,6 +134,11 @@
 }
 
 @media(max-width: 769px){
+    
+    .header__brand-sm {
+        display: none;
+    }
+
     .banner__image-desktop{
         display: none;
     }
