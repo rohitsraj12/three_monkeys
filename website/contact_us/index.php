@@ -1,16 +1,17 @@
 <?php
 
 
-    $page_title     = "Contact Us Page";
+    $page_title     = "Three Monkeys brewpub Contact Details | Old madras road@BLR";
     $nav_active     = "about";
 
-    $meta_key       = "";
-    $meta_desc      = "";
+    $meta_key       = "pub contacts in bangalore, crispy, monkeys, three monkeys";
+    $meta_desc      = "Contact Us: Address, 4th Floor, Gopalan Signature Mall, Old Madras Road, Bengaluru,560038, EmailAddress - gm.3monkeys@gmail.com, Mobile Number: 080 6690 9999.";
 
     include("../private/config/config.php");
     include("../private/required/header.inc.php");
 
 ?>
+
         <div class="body__banner other__banner">
             <div class="banner__image" data-aos="fade-in"
             data-aos-offset="100"
@@ -51,7 +52,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <ul>
-                                    <li><a href="">Home</a></li>
+                                    <li><a href="<?php echo base_url();?>">Home</a></li>
                                     <li><a href="">Contact Us</a></li>
                                 </ul>
 
