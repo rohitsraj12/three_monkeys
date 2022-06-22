@@ -1,10 +1,10 @@
 <?php
 
-    $page_title     = "Craft Beer Page";
+    $page_title     = "Craft Beer Pubs in BLR, Three Monkeys pub @ Beer on Rotation";
     $nav_active     = "craft";
 
-    $meta_key       = "";
-    $meta_desc      = "";
+    $meta_key       = "micro brewery pub, micro brewery, three monkeys craftbeer";
+    $meta_desc      = "Beautifully crafted, freshly brewed breweries with an eclectic range of beers and some mouth-watering appetizers. the ambiance everything seems to be on point.";
 
     include("../private/config/config.php");
     include("../private/required/header.inc.php");
@@ -40,7 +40,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <h2>
-                                    Craft Beer
+                                    Beer On Rotation
                                 </h2>
                             </header>
                             
@@ -50,7 +50,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <ul>
-                                    <li><a href="">Home</a></li>
+                                    <li><a href="<?php echo base_url();?>">Home</a></li>
                                     <li><a href="">Craft Beer</a></li>
                                 </ul>
 
