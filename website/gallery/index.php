@@ -1,10 +1,10 @@
 <?php
 
-    $page_title     = "Gallery Page";
+    $page_title     = "Gallery of Three monkeys Brewpub Old Madras Road | Bangalore";
     $nav_active     = "gallery";
 
-    $meta_key       = "";
-    $meta_desc      = "";
+    $meta_key       = "gallery of three monkeys brewpub, pub in old madras road, pub in bangalore, top pubs in bangalore";
+    $meta_desc      = "Three Monkeys- Brewpub is Located On Old Madras Road In BLR. Its Modern Concept And Traditional Interiors, Makes It One Of The Most Unique Pubs Across The City.";
 
     include("../private/config/config.php");
     include("../private/required/header.inc.php");
@@ -50,7 +50,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <ul>
-                                    <li><a href="">Home</a></li>
+                                    <li><a href="<?php echo base_url();?>">Home</a></li>
                                     <li><a href="">Gallery</a></li>
                                 </ul>
 
