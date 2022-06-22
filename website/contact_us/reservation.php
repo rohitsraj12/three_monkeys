@@ -1,11 +1,11 @@
 <?php
 
 
-    $page_title     = "Reservation Page";
+    $page_title     = "For Three monkeys pub Reservation @ Contact: 080 6690 9999";
     $nav_active     = "reservation";
 
-    $meta_key       = "";
-    $meta_desc      = "";
+    $meta_key       = "reservation, pub reservation, three monkeys pub reservation, pub reservation in bangalore";
+    $meta_desc      = "For Three monkeys pub Reservation@ Contact: 080 6690 9999, Mail: Gm.3monkeys@Gmail.Com, Location: 4th Floor, Gopalan Signature Mall, Old Madras Road, BLR 560038";
 
 
     include("../private/config/config.php");
@@ -52,7 +52,7 @@
                                         data-aos-duration="1000"
                                         data-aos-easing="ease-in">
                                 <ul>
-                                    <li><a href="">Home</a></li>
+                                    <li><a href="<?php echo base_url();?>">Home</a></li>
                                     <li><a href="">Contact Us</a></li>
                                     <li>Reservation</li>
                                 </ul>
