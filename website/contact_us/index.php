@@ -9,7 +9,6 @@
 
     include("../private/config/config.php");
     include("../private/required/header.inc.php");
-
 ?>
 
         <div class="body__banner other__banner">
