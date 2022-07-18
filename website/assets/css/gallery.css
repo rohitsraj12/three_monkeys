@@ -30,8 +30,8 @@
     }
     
     .gallery__grid .box header {
-      /*display: none;
-      */padding: 0;
+      display: none;
+      padding: 0;
       width: 100%;
       text-align: center;
       text-transform: capitalize;
