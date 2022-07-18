@@ -95,26 +95,26 @@
                                                     data-aos-delay="50"
                                                     data-aos-duration="1000"
                                                     data-aos-easing="ease-in">
-                                                <form action="">
+                                                <form action="form.php" method="POST">
                                                     <div class="mb-4">
                                                         <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                                                        <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
                                                     </div>
                                                     <div class="mb-4">
                                                         <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                                                        <input name="phone" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
                                                     </div>
                                                     <div class="mb-4">
                                                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+                                                        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
                                                     </div>
                                                     <div class="mb-4">
                                                         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please Enter your Message"></textarea>
+                                                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please Enter your Message"></textarea>
                                                     </div>
                                                     <div class="">
-                                                        <button class="btn__primary">
-                                                            View More
+                                                        <button name="submit" type="submit" class="btn__primary" value="contact_form">
+                                                            Send
                                                         </button>
                                                     </div>
                                                 </form>
