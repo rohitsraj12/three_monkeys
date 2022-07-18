@@ -135,59 +135,58 @@
                                                 data-aos-delay="50"
                                                 data-aos-duration="1000"
                                                 data-aos-easing="ease-in">
-                                                <form action="">
+                                                <form action="form.php" method="POST">
                                                     <div class="row">
                                                         <div class="col-md-4">
                                                             <div class="mb-4">
                                                                 <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                                                                <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="mb-4">
                                                                 <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                                                                <input name="phone" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">  
                                                             <div class="mb-4">
                                                                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+                                                                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="mb-4">
                                                                 <label for="exampleFormControlInput1" class="form-label">Event Type</label>
                                                                 <!-- <input type="text" id="exampleFormControlInput1" placeholder="Phone Number"> -->
-                                                                <select name="" class="form-control" id="">
+                                                                <select name="" class="form-control" id="" name="event">
                                                                     <option class="text-light" value="">Select Event Type</option>
-                                                                    <option class="text-light" value="">Corporate Events</option>
-                                                                    <option class="text-light" value="">Birthday Event</option>
-                                                                    <option class="text-light" value="">Large Group</option>
+                                                                    <option class="text-light" value="Corporate Event">Corporate Event</option>
+                                                                    <option class="text-light" value="Birthday Event">Birthday Event</option>
+                                                                    <option class="text-light" value="Large Group">Large Group</option>
                                                                 </select>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="mb-4">
                                                                 <label for="exampleFormControlInput1" class="form-label">Event Date</label>
-                                                                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="date">
+                                                                <input name="date" type="date" class="form-control" id="exampleFormControlInput1" placeholder="date">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">  
                                                             <div class="mb-4">
                                                                 <label for="exampleFormControlInput1" class="form-label">Number Of Guest</label>
-                                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Number of guests">
+                                                                <input name="guest" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Number of guests">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     
-                                                    
                                                     <div class="mb-4">
                                                         <label for="exampleFormControlTextarea1" class="form-label">Any Special Requests</label>
-                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Any Special Requests"></textarea>
+                                                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Any Special Requests"></textarea>
                                                     </div>
                                                     <div class="">
-                                                        <button class="btn__primary">
+                                                    <button name="submit" type="submit" class="btn__primary" value="reservation">
                                                             Send
                                                         </button>
                                                     </div>
