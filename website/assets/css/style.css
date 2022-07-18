@@ -115,6 +115,10 @@
     color:rgb(131, 131, 131);
   }
 
+  input, textarea, .form-control, option, .form-control:focus {
+    color: #fff;
+  }
+
   .backgroud__dark {
     background-color: #000;
   }
